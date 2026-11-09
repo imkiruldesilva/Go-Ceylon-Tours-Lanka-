@@ -1,0 +1,4397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go Ceylon Travels | Explore Sri Lanka - Luxury Bespoke Tours & Adventures</title>
+  <meta name="description" content="Discover the magic of Sri Lanka with Go Ceylon Travels. Luxury cultural tours, wildlife safaris, hill country escapes, and pristine beach holidays. Book your unforgettable Sri Lankan journey today.">
+  <meta name="keywords" content="Sri Lanka travel, Go Ceylon Travels, Sri Lanka tours, Sigiriya, Ella, Kandy, Yala safari, Galle, Ceylon holidays, travel booking Sri Lanka, Kalutara">
+  <meta name="author" content="Go Ceylon Travels">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230a2540'/><path d='M30 65 C40 30, 60 30, 70 65 C60 55, 40 55, 30 65 Z' fill='%23d4af37'/><circle cx='50' cy='35' r='10' fill='%2310b981'/></svg>">
+
+  <!-- Google Fonts: Playfair Display, Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* ============================================================
+       GO CEYLON TRAVELS - LUXURY TROPICAL TOURISM STYLESHEET
+       Colors: Ocean Blue (#0a2540, #0c4a6e), Tropical Green (#059669, #10b981),
+       Warm Gold (#d4af37, #f59e0b), Pristine Sand & Whites (#fdfbf7, #ffffff)
+       ============================================================ */
+
+    :root {
+      --primary-navy: #0a2540;
+      --primary-navy-dark: #06182a;
+      --primary-navy-light: #11385f;
+      --ocean-blue: #0284c7;
+      --ocean-blue-dark: #0369a1;
+      --tropical-green: #059669;
+      --tropical-green-dark: #047857;
+      --tropical-green-light: #10b981;
+      --accent-gold: #d4af37;
+      --accent-gold-hover: #bfa02e;
+      --accent-gold-light: #fef3c7;
+      --warm-amber: #f59e0b;
+      --bg-cream: #faf8f5;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-light: #94a3b8;
+      --border-color: #e2e8f0;
+      --border-gold: rgba(212, 175, 55, 0.3);
+      --shadow-sm: 0 2px 8px rgba(10, 37, 64, 0.05);
+      --shadow-md: 0 8px 24px -4px rgba(10, 37, 64, 0.08), 0 4px 8px -2px rgba(10, 37, 64, 0.03);
+      --shadow-lg: 0 16px 36px -6px rgba(10, 37, 64, 0.12), 0 6px 12px -2px rgba(10, 37, 64, 0.05);
+      --shadow-hover: 0 22px 45px -8px rgba(10, 37, 64, 0.18);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .font-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      color: var(--primary-navy);
+      letter-spacing: -0.01em;
+    }
+
+    .font-accent {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition-smooth);
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      outline: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Selection Color */
+    ::selection {
+      background: var(--accent-gold);
+      color: var(--primary-navy);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #94a3b8;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-gold);
+    }
+
+    /* --------------------------------
+       TOP BAR
+       -------------------------------- */
+    .top-bar {
+      background: var(--primary-navy-dark);
+      color: #cbd5e1;
+      font-size: 0.84rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      z-index: 1002;
+    }
+    .top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .top-bar-left, .top-bar-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .top-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: #e2e8f0;
+      transition: color 0.2s;
+    }
+    .top-bar-item:hover {
+      color: var(--accent-gold);
+    }
+    .top-bar-item i {
+      color: var(--accent-gold);
+      font-size: 0.9rem;
+    }
+    .top-socials {
+      display: flex;
+      gap: 12px;
+      margin-left: 8px;
+    }
+    .top-socials a {
+      color: #cbd5e1;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 0.75rem;
+    }
+    .top-socials a:hover {
+      background: var(--accent-gold);
+      color: var(--primary-navy);
+      transform: translateY(-2px);
+    }
+    .top-badge {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #34d399;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 9px;
+      border-radius: var(--radius-full);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .top-badge span {
+      width: 6px;
+      height: 6px;
+      background: #34d399;
+      border-radius: 50%;
+      display: inline-block;
+      animation: pulseGreen 2s infinite;
+    }
+    @keyframes pulseGreen {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+    }
+
+    /* --------------------------------
+       NAVIGATION HEADER
+       -------------------------------- */
+    .site-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 4px 20px rgba(10, 37, 64, 0.07);
+      z-index: 1001;
+      transition: var(--transition-smooth);
+    }
+    .site-header.scrolled {
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: 0 8px 30px rgba(10, 37, 64, 0.12);
+    }
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 82px;
+    }
+    
+    /* Brand Logo */
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .logo-symbol {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--primary-navy) 0%, var(--tropical-green) 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      font-size: 1.45rem;
+      box-shadow: 0 6px 16px rgba(5, 150, 105, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    .logo-symbol::after {
+      content: '';
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 25px;
+      height: 25px;
+      background: rgba(212, 175, 55, 0.3);
+      border-radius: 50%;
+    }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.45rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      color: var(--primary-navy);
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+    .logo-title span {
+      color: var(--tropical-green);
+    }
+    .logo-subtitle {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+    }
+
+    /* Nav Links */
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-item {
+      position: relative;
+    }
+    .nav-link {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--primary-navy);
+      padding: 8px 4px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2.5px;
+      background: linear-gradient(90deg, var(--tropical-green), var(--accent-gold));
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover {
+      color: var(--tropical-green);
+    }
+    .nav-link:hover::after,
+    .nav-link.active::after {
+      width: 100%;
+    }
+    .nav-link.active {
+      color: var(--tropical-green);
+    }
+
+    /* Nav Action Buttons */
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .btn-header-inquire {
+      background: linear-gradient(135deg, var(--accent-gold) 0%, var(--warm-amber) 100%);
+      color: var(--primary-navy);
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding: 12px 24px;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: var(--transition-smooth);
+    }
+    .btn-header-inquire:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(212, 175, 55, 0.5);
+      background: linear-gradient(135deg, #fcd34d 0%, #f59e0b 100%);
+    }
+
+    /* Mobile Menu Toggle */
+    .mobile-menu-btn {
+      display: none;
+      background: transparent;
+      border: none;
+      font-size: 1.5rem;
+      color: var(--primary-navy);
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* --------------------------------
+       PAGE SECTIONS & VIEW MANAGER
+       -------------------------------- */
+    .page-section {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+    }
+    .page-section.active-page {
+      display: block;
+      opacity: 1;
+      animation: fadeInPage 0.45s ease forwards;
+    }
+    @keyframes fadeInPage {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --------------------------------
+       HERO SECTION (HOME)
+       -------------------------------- */
+    .hero-section {
+      position: relative;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-navy);
+      overflow: hidden;
+      color: #ffffff;
+      padding: 120px 0 160px;
+    }
+    .hero-bg-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .hero-bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.05);
+      animation: heroZoom 24s infinite alternate ease-in-out;
+      filter: brightness(0.78);
+    }
+    @keyframes heroZoom {
+      0% { transform: scale(1.02); }
+      100% { transform: scale(1.15); }
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, 
+        rgba(10, 37, 64, 0.72) 0%, 
+        rgba(10, 37, 64, 0.45) 50%, 
+        rgba(10, 37, 64, 0.85) 100%);
+      z-index: 2;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.14);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      padding: 8px 20px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      margin-bottom: 24px;
+      animation: fadeInDown 0.8s ease;
+    }
+    .hero-tag i {
+      color: var(--tropical-green-light);
+    }
+    .hero-title {
+      font-size: clamp(2.4rem, 5.5vw, 4.4rem);
+      line-height: 1.15;
+      color: #ffffff;
+      margin-bottom: 22px;
+      font-weight: 800;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      animation: fadeInUp 0.9s ease;
+    }
+    .hero-title span {
+      background: linear-gradient(90deg, #fef08a, var(--accent-gold), #fed7aa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    .hero-subtitle {
+      font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+      color: #e2e8f0;
+      max-width: 760px;
+      margin: 0 auto 36px;
+      font-weight: 400;
+      line-height: 1.6;
+      animation: fadeInUp 1.1s ease;
+    }
+    .hero-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      animation: fadeInUp 1.3s ease;
+    }
+
+    /* Common Button Styles */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 32px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      border: none;
+      text-align: center;
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, var(--accent-gold) 0%, var(--warm-amber) 100%);
+      color: var(--primary-navy);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    }
+    .btn-gold:hover {
+      background: linear-gradient(135deg, #fde047 0%, #d97706 100%);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 28px rgba(212, 175, 55, 0.55);
+      color: var(--primary-navy);
+    }
+    .btn-outline-white {
+      background: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border: 1.5px solid rgba(255, 255, 255, 0.6);
+    }
+    .btn-outline-white:hover {
+      background: #ffffff;
+      color: var(--primary-navy);
+      border-color: #ffffff;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.25);
+    }
+    .btn-primary {
+      background: var(--tropical-green);
+      color: #ffffff;
+      box-shadow: 0 6px 18px rgba(5, 150, 105, 0.35);
+    }
+    .btn-primary:hover {
+      background: var(--tropical-green-dark);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(5, 150, 105, 0.45);
+    }
+    .btn-navy {
+      background: var(--primary-navy);
+      color: #ffffff;
+    }
+    .btn-navy:hover {
+      background: var(--primary-navy-light);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(10, 37, 64, 0.3);
+    }
+    .btn-sm {
+      padding: 9px 18px;
+      font-size: 0.88rem;
+    }
+
+    /* --------------------------------
+       QUICK BOOKING SEARCH BAR
+       -------------------------------- */
+    .search-bar-section {
+      position: relative;
+      z-index: 10;
+      margin-top: -65px;
+      margin-bottom: 50px;
+    }
+    .search-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 24px 30px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+    }
+    .search-form {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+    }
+    .search-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border-right: 1px solid #e2e8f0;
+      padding-right: 16px;
+    }
+    .search-field:last-of-type {
+      border-right: none;
+    }
+    .search-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .search-label i {
+      color: var(--tropical-green);
+    }
+    .search-input, .search-select {
+      border: none;
+      background: transparent;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: var(--primary-navy);
+      cursor: pointer;
+      width: 100%;
+      padding: 4px 0;
+    }
+    .search-btn {
+      height: 52px;
+      padding: 0 28px;
+      white-space: nowrap;
+    }
+
+    /* --------------------------------
+       SECTION COMMON TITLES & BADGES
+       -------------------------------- */
+    .section-padding {
+      padding: 90px 0;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 55px;
+    }
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(5, 150, 105, 0.1);
+      color: var(--tropical-green);
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-size: clamp(2rem, 3.8vw, 2.9rem);
+      margin-bottom: 16px;
+      line-height: 1.22;
+    }
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* --------------------------------
+       WELCOME / ABOUT PREVIEW SECTION
+       -------------------------------- */
+    .welcome-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .welcome-text h2 {
+      font-size: clamp(2.1rem, 3.5vw, 2.8rem);
+      margin-bottom: 20px;
+      line-height: 1.25;
+    }
+    .welcome-text p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 22px;
+    }
+    .welcome-features-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 28px 0 36px;
+    }
+    .welcome-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      color: var(--primary-navy);
+      font-size: 0.96rem;
+    }
+    .welcome-feature-item i {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--tropical-green);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+    .welcome-media {
+      position: relative;
+    }
+    .welcome-img-main {
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+    }
+    .welcome-card-float {
+      position: absolute;
+      bottom: -30px;
+      left: -30px;
+      background: var(--bg-surface);
+      padding: 24px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-hover);
+      border-left: 5px solid var(--accent-gold);
+      max-width: 270px;
+    }
+    .welcome-card-float .stat-num {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary-navy);
+      line-height: 1;
+      font-family: 'Outfit', sans-serif;
+    }
+    .welcome-card-float .stat-label {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    /* --------------------------------
+       CARDS & GRIDS (TOURS & DESTINATIONS)
+       -------------------------------- */
+    .tours-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 32px;
+    }
+    .tour-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-smooth);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(226, 232, 240, 0.8);
+      position: relative;
+    }
+    .tour-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+      border-color: rgba(212, 175, 55, 0.4);
+    }
+    .tour-card-img-wrap {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+    }
+    .tour-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .tour-card:hover .tour-card-img {
+      transform: scale(1.08);
+    }
+    .tour-card-badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: rgba(10, 37, 64, 0.85);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 5px 12px;
+      border-radius: var(--radius-full);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .tour-card-duration {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      color: var(--primary-navy);
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .tour-card-duration i {
+      color: var(--tropical-green);
+    }
+    .tour-card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .tour-card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+    .tour-rating {
+      color: var(--warm-amber);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .tour-type-tag {
+      color: var(--tropical-green);
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .tour-card-title {
+      font-size: 1.35rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+      color: var(--primary-navy);
+    }
+    .tour-card-desc {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+      margin-bottom: 18px;
+    }
+    .tour-card-highlights {
+      list-style: none;
+      margin-bottom: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .tour-card-highlight-item {
+      font-size: 0.86rem;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tour-card-highlight-item i {
+      color: var(--tropical-green);
+      font-size: 0.8rem;
+    }
+    .tour-card-footer {
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 18px;
+      border-top: 1px solid #f1f5f9;
+      gap: 12px;
+    }
+
+    /* --------------------------------
+       WHY CHOOSE US SECTION
+       -------------------------------- */
+    .why-us-section {
+      background: linear-gradient(180deg, var(--primary-navy) 0%, #06182a 100%);
+      color: #ffffff;
+      position: relative;
+    }
+    .why-us-section .section-title {
+      color: #ffffff;
+    }
+    .why-us-section .section-subtitle {
+      color: #94a3b8;
+    }
+    .why-us-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 28px;
+    }
+    .why-us-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-lg);
+      padding: 34px 28px;
+      transition: var(--transition-smooth);
+      position: relative;
+      overflow: hidden;
+    }
+    .why-us-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-6px);
+      border-color: rgba(212, 175, 55, 0.4);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+    .why-us-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--tropical-green), var(--accent-gold));
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .why-us-card:hover::after {
+      opacity: 1;
+    }
+    .why-icon-wrap {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(5, 150, 105, 0.2) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      color: var(--accent-gold);
+      font-size: 1.7rem;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+    }
+    .why-us-card h3 {
+      color: #ffffff;
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+    .why-us-card p {
+      color: #cbd5e1;
+      font-size: 0.93rem;
+      line-height: 1.6;
+    }
+
+    /* --------------------------------
+       FEATURED DESTINATIONS SHOWCASE
+       -------------------------------- */
+    .destinations-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+    }
+    .destination-item {
+      position: relative;
+      height: 360px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-smooth);
+    }
+    .destination-item:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+    }
+    .destination-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .destination-item:hover .destination-img {
+      transform: scale(1.1);
+    }
+    .destination-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, 
+        rgba(10, 37, 64, 0.1) 0%, 
+        rgba(10, 37, 64, 0.5) 50%, 
+        rgba(10, 37, 64, 0.9) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 28px;
+      color: #ffffff;
+    }
+    .destination-tag {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-gold);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .destination-name {
+      font-size: 1.65rem;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .destination-desc {
+      font-size: 0.88rem;
+      color: #e2e8f0;
+      opacity: 0.9;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* --------------------------------
+       STATS COUNTER SECTION
+       -------------------------------- */
+    .stats-bar {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 45px 30px;
+      box-shadow: var(--shadow-lg);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      text-align: center;
+      margin-top: -50px;
+      position: relative;
+      z-index: 10;
+      border: 1px solid rgba(212, 175, 55, 0.25);
+    }
+    .stat-box {
+      border-right: 1px solid #e2e8f0;
+    }
+    .stat-box:last-child {
+      border-right: none;
+    }
+    .stat-number {
+      font-size: clamp(2.2rem, 3.5vw, 2.9rem);
+      font-weight: 800;
+      color: var(--primary-navy);
+      font-family: 'Outfit', sans-serif;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+    .stat-number span {
+      color: var(--tropical-green);
+    }
+    .stat-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* --------------------------------
+       CTA SECTION
+       -------------------------------- */
+    .cta-banner {
+      background: linear-gradient(rgba(10, 37, 64, 0.82), rgba(10, 37, 64, 0.88)),
+                  url('https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=1920&q=80') center/cover fixed;
+      padding: 95px 0;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      color: #ffffff;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      margin: 40px 0;
+    }
+    .cta-banner h2 {
+      color: #ffffff;
+      font-size: clamp(2.2rem, 4vw, 3.2rem);
+      margin-bottom: 18px;
+    }
+    .cta-banner p {
+      color: #e2e8f0;
+      max-width: 650px;
+      margin: 0 auto 34px;
+      font-size: 1.12rem;
+    }
+
+    /* --------------------------------
+       FILTER CONTROLS (TOURS & ATTRACTIONS)
+       -------------------------------- */
+    .filter-wrapper {
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .filter-search-box {
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative;
+      width: 100%;
+    }
+    .filter-search-input {
+      width: 100%;
+      padding: 14px 20px 14px 48px;
+      border-radius: var(--radius-full);
+      border: 1.5px solid #cbd5e1;
+      background: var(--bg-surface);
+      font-size: 0.98rem;
+      transition: var(--transition-smooth);
+    }
+    .filter-search-input:focus {
+      border-color: var(--tropical-green);
+      box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.12);
+    }
+    .filter-search-icon {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .category-pill {
+      background: var(--bg-surface);
+      color: var(--text-main);
+      padding: 9px 20px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      font-weight: 600;
+      border: 1px solid #e2e8f0;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+    .category-pill:hover,
+    .category-pill.active {
+      background: var(--primary-navy);
+      color: #ffffff;
+      border-color: var(--primary-navy);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(10, 37, 64, 0.15);
+    }
+    .category-pill.active {
+      background: var(--tropical-green);
+      border-color: var(--tropical-green);
+    }
+
+    /* --------------------------------
+       ATTRACTIONS SECTION
+       -------------------------------- */
+    .attractions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 30px;
+    }
+    .attraction-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-smooth);
+      border: 1px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+    }
+    .attraction-card:hover {
+      transform: translateY(-7px);
+      box-shadow: var(--shadow-hover);
+      border-color: var(--accent-gold);
+    }
+    .attraction-img-wrap {
+      height: 240px;
+      position: relative;
+      overflow: hidden;
+    }
+    .attraction-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .attraction-card:hover .attraction-img {
+      transform: scale(1.08);
+    }
+    .attraction-cat-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(10, 37, 64, 0.85);
+      backdrop-filter: blur(5px);
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .attraction-loc-badge {
+      position: absolute;
+      bottom: 14px;
+      left: 14px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(5px);
+      color: var(--primary-navy);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .attraction-loc-badge i {
+      color: var(--tropical-green);
+    }
+    .attraction-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .attraction-title {
+      font-size: 1.35rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .attraction-desc {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+      margin-bottom: 18px;
+    }
+    .attraction-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+    .attraction-tag {
+      background: #f1f5f9;
+      color: var(--text-main);
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+    }
+    .attraction-footer {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* --------------------------------
+       ABOUT US PAGE COMPONENTS
+       -------------------------------- */
+    .about-story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+    .about-values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 70px;
+    }
+    .about-value-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 36px 30px;
+      box-shadow: var(--shadow-md);
+      border-top: 4px solid var(--accent-gold);
+      transition: var(--transition-smooth);
+    }
+    .about-value-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+    }
+    .about-value-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      background: rgba(212, 175, 55, 0.15);
+      color: var(--accent-gold-hover);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .fleet-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 40px;
+    }
+    .fleet-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 1px solid #e2e8f0;
+      text-align: center;
+    }
+    .fleet-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .fleet-body {
+      padding: 22px;
+    }
+
+    /* FAQ Accordion */
+    .faq-container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      background: var(--bg-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid #e2e8f0;
+      margin-bottom: 14px;
+      overflow: hidden;
+      transition: var(--transition-smooth);
+    }
+    .faq-question {
+      padding: 20px 24px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--primary-navy);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .faq-question i {
+      color: var(--tropical-green);
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+      padding: 0 24px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+      padding-bottom: 22px;
+    }
+
+    /* --------------------------------
+       CONTACT PAGE COMPONENTS
+       -------------------------------- */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 50px;
+    }
+    .contact-info-panel {
+      background: var(--primary-navy);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      box-shadow: var(--shadow-lg);
+    }
+    .contact-info-panel h3 {
+      color: #ffffff;
+      font-size: 1.8rem;
+    }
+    .contact-item {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+    .contact-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+    .contact-detail h4 {
+      font-size: 1rem;
+      color: #e2e8f0;
+      margin-bottom: 4px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .contact-detail p, .contact-detail a {
+      color: #ffffff;
+      font-size: 1.02rem;
+      font-weight: 500;
+    }
+    .contact-detail a:hover {
+      color: var(--accent-gold);
+    }
+    .contact-form-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 42px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid #e2e8f0;
+    }
+    .form-group {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .form-label {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--primary-navy);
+    }
+    .form-label span {
+      color: #ef4444;
+    }
+    .form-control {
+      width: 100%;
+      padding: 13px 18px;
+      border-radius: var(--radius-md);
+      border: 1.5px solid #cbd5e1;
+      font-size: 0.95rem;
+      transition: var(--transition-smooth);
+      background: #fafaf9;
+    }
+    .form-control:focus {
+      border-color: var(--tropical-green);
+      background: #ffffff;
+      box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.12);
+    }
+    textarea.form-control {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    /* Map Frame */
+    .map-frame-wrapper {
+      margin-top: 50px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      height: 380px;
+      border: 1px solid #e2e8f0;
+    }
+    .map-frame-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* --------------------------------
+       FOOTER
+       -------------------------------- */
+    .site-footer {
+      background: var(--primary-navy-dark);
+      color: #94a3b8;
+      padding-top: 80px;
+      font-size: 0.93rem;
+      position: relative;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr 0.9fr 1.2fr;
+      gap: 45px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .footer-col h4 {
+      color: #ffffff;
+      font-size: 1.2rem;
+      margin-bottom: 22px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    .footer-col h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 36px;
+      height: 2.5px;
+      background: var(--accent-gold);
+    }
+    .footer-bio {
+      line-height: 1.65;
+      margin: 18px 0 24px;
+      color: #cbd5e1;
+    }
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .footer-link-item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: var(--transition-smooth);
+      color: #cbd5e1;
+    }
+    .footer-link-item:hover {
+      color: var(--accent-gold);
+      transform: translateX(5px);
+    }
+    .footer-contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: #cbd5e1;
+    }
+    .footer-contact-item i {
+      color: var(--accent-gold);
+      margin-top: 4px;
+    }
+    .footer-contact-item a:hover {
+      color: var(--accent-gold);
+    }
+    .footer-bottom {
+      padding: 26px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.85rem;
+    }
+
+    /* --------------------------------
+       MODALS (BOOKING, TOUR DETAILS, ETC.)
+       -------------------------------- */
+    .modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 37, 64, 0.8);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .modal-backdrop.show {
+      display: flex;
+      opacity: 1;
+    }
+    .modal-box {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      max-width: 820px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+      position: relative;
+      animation: modalSlideUp 0.35s ease;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+    }
+    @keyframes modalSlideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .modal-header {
+      padding: 24px 30px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(135deg, var(--primary-navy) 0%, #11385f 100%);
+      color: #ffffff;
+      border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
+    .modal-header h3 {
+      color: #ffffff;
+      font-size: 1.45rem;
+      margin: 0;
+    }
+    .modal-close-btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      color: #ffffff;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+    }
+    .modal-close-btn:hover {
+      background: #ef4444;
+      transform: rotate(90deg);
+    }
+    .modal-body {
+      padding: 30px;
+    }
+
+    /* Itinerary Timeline */
+    .itinerary-timeline {
+      position: relative;
+      padding-left: 32px;
+      margin: 24px 0;
+    }
+    .itinerary-timeline::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 11px;
+      width: 2.5px;
+      background: linear-gradient(180deg, var(--tropical-green) 0%, var(--accent-gold) 100%);
+    }
+    .itinerary-day {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    .itinerary-day::before {
+      content: '';
+      position: absolute;
+      left: -32px;
+      top: 4px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--bg-surface);
+      border: 3.5px solid var(--tropical-green);
+      box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.2);
+    }
+    .itinerary-day-title {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--primary-navy);
+      margin-bottom: 6px;
+    }
+    .itinerary-day-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Floating WhatsApp Button */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 62px;
+      height: 62px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 2rem;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45);
+      z-index: 1999;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      text-decoration: none;
+    }
+    .floating-whatsapp:hover {
+      transform: scale(1.1) translateY(-4px);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.65);
+      color: #ffffff;
+    }
+    .floating-whatsapp::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 2px solid #25d366;
+      animation: ripple 1.8s infinite ease-out;
+    }
+    @keyframes ripple {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(1.6); opacity: 0; }
+    }
+    .floating-wa-tooltip {
+      position: absolute;
+      right: 74px;
+      background: var(--primary-navy);
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Back to Top */
+    .back-to-top {
+      position: fixed;
+      bottom: 100px;
+      right: 32px;
+      width: 44px;
+      height: 44px;
+      background: var(--bg-surface);
+      color: var(--primary-navy);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-md);
+      border: 1px solid #e2e8f0;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-smooth);
+      z-index: 1000;
+    }
+    .back-to-top.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    .back-to-top:hover {
+      background: var(--tropical-green);
+      color: #ffffff;
+      transform: translateY(-4px);
+    }
+
+    /* Toast Notification */
+    .toast-container {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      z-index: 3000;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .toast {
+      background: var(--primary-navy);
+      color: #ffffff;
+      padding: 16px 22px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-hover);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 320px;
+      border-left: 5px solid var(--accent-gold);
+      animation: toastIn 0.35s ease;
+    }
+    @keyframes toastIn {
+      from { transform: translateX(100%); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    .toast.toast-success { border-left-color: var(--tropical-green); }
+    .toast.toast-error { border-left-color: #ef4444; }
+
+    /* Keyframes */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --------------------------------
+       RESPONSIVE BREAKPOINTS
+       -------------------------------- */
+    @media (max-width: 1024px) {
+      .search-form {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .search-btn {
+        grid-column: span 2;
+      }
+      .search-field {
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+        padding-bottom: 12px;
+      }
+      .welcome-grid, .contact-grid, .about-story-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .destinations-grid, .about-values-grid, .fleet-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .stat-box:nth-child(2) {
+        border-right: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .top-bar {
+        display: none;
+      }
+      .nav-wrapper {
+        height: 72px;
+      }
+      .mobile-menu-btn {
+        display: block;
+      }
+      .main-nav {
+        position: fixed;
+        top: 72px;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        flex-direction: column;
+        padding: 30px 24px;
+        gap: 20px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        transform: translateY(-120%);
+        transition: transform 0.4s ease;
+        z-index: 1000;
+        border-bottom: 2px solid var(--accent-gold);
+      }
+      .main-nav.open {
+        transform: translateY(0);
+      }
+      .hero-section {
+        min-height: 80vh;
+        padding: 80px 0 120px;
+      }
+      .search-form {
+        grid-template-columns: 1fr;
+      }
+      .search-btn {
+        grid-column: span 1;
+      }
+      .destinations-grid, .about-values-grid, .fleet-grid, .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .stats-bar {
+        grid-template-columns: 1fr;
+      }
+      .stat-box {
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+        padding-bottom: 16px;
+      }
+      .stat-box:last-child {
+        border-bottom: none;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+      .contact-info-panel, .contact-form-card {
+        padding: 26px 20px;
+      }
+      .tours-grid, .attractions-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <a href="https://wa.me/94777613691" target="_blank" rel="noopener" class="top-bar-item" title="Direct WhatsApp Inquiries">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>+94 77 761 3691</span>
+        </a>
+        <a href="mailto:goceylon.travels@gmail.com" class="top-bar-item" title="Send us an email">
+          <i class="fa-regular fa-envelope"></i>
+          <span>goceylon.travels@gmail.com</span>
+        </a>
+        <div class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Palathota Road, Kalutara, Sri Lanka</span>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-badge">
+          <span></span> Tailor-Made Private Tours 2026/2027
+        </div>
+        <div class="top-socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TripAdvisor"><i class="fa-brands fa-tripadvisor"></i></a>
+          <a href="https://wa.me/94777613691" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <a href="javascript:void(0)" onclick="navigateTo('home')" class="brand-logo" title="Go Ceylon Travels">
+          <div class="logo-symbol">
+            <i class="fa-solid fa-umbrella-beach"></i>
+          </div>
+          <div class="logo-text">
+            <span class="logo-title">GO CEYLON <span>TRAVELS</span></span>
+            <span class="logo-subtitle">SRI LANKA TOUR OPERATOR</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav>
+          <ul class="main-nav" id="mainNav">
+            <li class="nav-item">
+              <a href="javascript:void(0)" onclick="navigateTo('home')" class="nav-link active" data-nav="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" onclick="navigateTo('tours')" class="nav-link" data-nav="tours">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" onclick="navigateTo('attractions')" class="nav-link" data-nav="attractions">Sri Lanka Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" onclick="navigateTo('about')" class="nav-link" data-nav="about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" onclick="navigateTo('contact')" class="nav-link" data-nav="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="nav-actions">
+          <button type="button" class="btn-header-inquire" onclick="openBookingModal()">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Now</span>
+          </button>
+          <button type="button" class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       PAGE 01: HOME PAGE VIEW
+       ======================================================== -->
+  <main id="home-page" class="page-section active-page">
+    
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-bg-wrapper">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sigiriya_Sri_lanka.jpg?width=1920" 
+             alt="Sigiriya Rock Fortress Sri Lanka" 
+             class="hero-bg-img"
+             onerror="this.src='https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1920&q=80'">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-tag">
+          <i class="fa-solid fa-gem"></i> Bespoke Sri Lanka Holidays
+        </div>
+        <h1 class="hero-title">
+          DISCOVER THE MAGIC OF <span>SRI LANKA</span>
+        </h1>
+        <p class="hero-subtitle">
+          Explore Paradise. Experience Culture. Create Unforgettable Memories. Tailor-made luxury tours, wild safaris, and pristine coastal retreats crafted by local travel connoisseurs.
+        </p>
+        <div class="hero-buttons">
+          <button type="button" class="btn btn-gold" onclick="navigateTo('tours')">
+            <i class="fa-solid fa-compass"></i> Explore Our Tours
+          </button>
+          <button type="button" class="btn btn-outline-white" onclick="openBookingModal()">
+            <i class="fa-solid fa-paper-plane"></i> Book Your Journey
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK BOOKING SEARCH BAR -->
+    <div class="container search-bar-section">
+      <div class="search-card">
+        <form class="search-form" onsubmit="handleQuickSearch(event)">
+          <div class="search-field">
+            <label class="search-label"><i class="fa-solid fa-location-dot"></i> Destination</label>
+            <select class="search-select" id="searchDestination">
+              <option value="all">All Sri Lanka Regions</option>
+              <option value="cultural">Cultural Triangle (Sigiriya, Kandy)</option>
+              <option value="hill">Hill Country (Ella, Nuwara Eliya)</option>
+              <option value="beach">Southern Coast (Mirissa, Galle)</option>
+              <option value="wildlife">Wildlife Parks (Yala, Udawalawe)</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label class="search-label"><i class="fa-regular fa-calendar-days"></i> Tour Start Date</label>
+            <input type="date" class="search-input" id="searchDate">
+          </div>
+
+          <div class="search-field">
+            <label class="search-label"><i class="fa-solid fa-user-group"></i> Number of Guests</label>
+            <select class="search-select" id="searchGuests">
+              <option value="1">1 Solo Traveler</option>
+              <option value="2" selected>2 Guests (Couple)</option>
+              <option value="family">3-5 Guests (Family)</option>
+              <option value="group">6+ Guests (Group)</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label class="search-label"><i class="fa-solid fa-route"></i> Tour Type</label>
+            <select class="search-select" id="searchTourType">
+              <option value="all">All Tour Categories</option>
+              <option value="Cultural">Cultural & Heritage</option>
+              <option value="Wildlife">Wildlife & Safari</option>
+              <option value="Beach">Beach & Coastal</option>
+              <option value="Hill Country">Hill Country Escapes</option>
+              <option value="Round Island">Round Island Grand</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-gold search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i> Search Tours
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- WELCOME SECTION -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="welcome-grid">
+          <div class="welcome-text">
+            <span class="section-badge"><i class="fa-solid fa-award"></i> Welcome to Go Ceylon Travels</span>
+            <h2>Sri Lanka's Premier Luxury & Bespoke Travel Specialist</h2>
+            <p>
+              Discover the breathtaking beauty of Sri Lanka with <strong>Go Ceylon Travels</strong>. From golden sandy beaches and misty emerald tea mountains to ancient UNESCO rock fortresses and thrilling wildlife safaris, we craft deeply personalized travel experiences designed just for you.
+            </p>
+            <p>
+              Headquartered in Kalutara, our dedicated team of travel experts and certified private chauffeur guides ensure that every moment in the "Pearl of the Indian Ocean" is seamless, authentic, and unforgettable.
+            </p>
+            
+            <div class="welcome-features-list">
+              <div class="welcome-feature-item">
+                <i class="fa-solid fa-check"></i> 100% Private & Custom Itineraries
+              </div>
+              <div class="welcome-feature-item">
+                <i class="fa-solid fa-check"></i> Luxury Climate-Controlled Vehicles
+              </div>
+              <div class="welcome-feature-item">
+                <i class="fa-solid fa-check"></i> Certified English Chauffeur Guides
+              </div>
+              <div class="welcome-feature-item">
+                <i class="fa-solid fa-check"></i> 24/7 Dedicated Concierge Care
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+              <button type="button" class="btn btn-primary" onclick="navigateTo('about')">
+                <span>Learn More About Us</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <a href="https://wa.me/94777613691" target="_blank" rel="noopener" class="btn btn-outline-navy" style="border: 1.5px solid var(--primary-navy); color: var(--primary-navy); padding: 14px 28px; border-radius: var(--radius-full); font-weight: 700; display: inline-flex; align-items: center; gap: 8px;">
+                <i class="fa-brands fa-whatsapp" style="color: #25d366; font-size: 1.2rem;"></i> WhatsApp Concierge
+              </a>
+            </div>
+          </div>
+
+          <div class="welcome-media">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nine_Arch_Bridge.jpg?width=1000" 
+                 alt="Scenic Train at Demodara Nine Arch Bridge Ella" 
+                 class="welcome-img-main"
+                 onerror="this.src='https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=1000&q=80'">
+            <div class="welcome-card-float">
+              <div class="stat-num">12+</div>
+              <div class="stat-label">Years of Excellence Crafting Authentic Ceylon Journeys</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR TOUR PACKAGES -->
+    <section class="section-padding" style="background: #f4f6f8;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-suitcase-rolling"></i> Handcrafted Journeys</span>
+          <h2 class="section-title">Popular Tour Packages</h2>
+          <p class="section-subtitle">
+            Immerse yourself in our most loved Sri Lankan itineraries, thoughtfully curated to blend world-famous highlights with hidden local treasures.
+          </p>
+        </div>
+
+        <div class="tours-grid" id="featuredToursContainer">
+          <!-- Populated dynamically via JavaScript with 6 signature packages -->
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+          <button type="button" class="btn btn-navy" onclick="navigateTo('tours')" style="padding: 16px 38px;">
+            <i class="fa-solid fa-grid-2"></i> View All Tour Packages & Categories
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="section-padding why-us-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge" style="background: rgba(212, 175, 55, 0.18); color: var(--accent-gold);"><i class="fa-solid fa-shield-halved"></i> The Go Ceylon Difference</span>
+          <h2 class="section-title">Why Choose Go Ceylon Travels</h2>
+          <p class="section-subtitle">
+            We don't just organize tours; we curate seamless, unforgettable journeys with unwavering commitment to comfort, safety, and authentic hospitality.
+          </p>
+        </div>
+
+        <div class="why-us-grid">
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-user-tie"></i></div>
+            <h3>Professional Tour Guides</h3>
+            <p>Government-licensed, fluent English & multilingual chauffeur guides who share deep insights into Sri Lanka's heritage, folklore, and local life.</p>
+          </div>
+
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-sliders"></i></div>
+            <h3>Customized Tour Packages</h3>
+            <p>Every traveler is unique. We tailor dates, pacing, accommodation styles, and special excursions to match your personal vision of paradise.</p>
+          </div>
+
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-van-shuttle"></i></div>
+            <h3>Comfortable Transportation</h3>
+            <p>Travel in pristine, modern, fully air-conditioned vehicles featuring complimentary Wi-Fi, bottled mineral water, and experienced safe drivers.</p>
+          </div>
+
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-tags"></i></div>
+            <h3>Affordable Travel Packages</h3>
+            <p>Transparent direct-from-the-island pricing with zero hidden fees. Experience luxury hospitality with exceptional value for every budget.</p>
+          </div>
+
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-headset"></i></div>
+            <h3>24/7 Customer Support</h3>
+            <p>Continuous personal assistance from our Kalutara headquarters. From pre-trip planning to airport departure, you are never alone.</p>
+          </div>
+
+          <div class="why-us-card">
+            <div class="why-icon-wrap"><i class="fa-solid fa-star"></i></div>
+            <h3>Unforgettable Experiences</h3>
+            <p>Privileged access to private tea tastings, secret viewpoint treks, traditional village cookery, and ethical wildlife encounters.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED DESTINATIONS -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-map-location-dot"></i> Iconic Landscapes</span>
+          <h2 class="section-title">Featured Destinations</h2>
+          <p class="section-subtitle">
+            From the fortress of ancient kings to golden surf breaks and cloud-kissed peaks, explore Sri Lanka's most iconic wonders.
+          </p>
+        </div>
+
+        <div class="destinations-grid">
+          <!-- Sigiriya -->
+          <div class="destination-item" onclick="openAttractionDetail('Sigiriya Rock Fortress')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sigiriya_Sri_lanka.jpg?width=800" alt="Sigiriya Rock Fortress" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Cultural Triangle</span>
+              <h3 class="destination-name">Sigiriya</h3>
+              <p class="destination-desc">The legendary 5th-century "Lion Rock" fortress rising dramatically above lush emerald jungles.</p>
+            </div>
+          </div>
+
+          <!-- Ella -->
+          <div class="destination-item" onclick="openAttractionDetail('Nine Arch Bridge, Ella')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ravana_falls.jpg?width=800" alt="Ella Scenic Waterfalls" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Hill Country</span>
+              <h3 class="destination-name">Ella</h3>
+              <p class="destination-desc">Misty mountains, world-famous scenic railways, cascading waterfalls, and hiking heaven.</p>
+            </div>
+          </div>
+
+          <!-- Mirissa -->
+          <div class="destination-item" onclick="openAttractionDetail('Mirissa Beach')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_Tree_Hill,_Sri_Lanka.jpg?width=800" alt="Mirissa Coconut Tree Hill" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Southern Coast</span>
+              <h3 class="destination-name">Mirissa</h3>
+              <p class="destination-desc">Golden sandy shores, coconut tree hills, and the world's premier blue whale watching spot.</p>
+            </div>
+          </div>
+
+          <!-- Kandy -->
+          <div class="destination-item" onclick="openAttractionDetail('Temple of the Tooth Relic, Kandy')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_tooth_sri_lanka.jpg?width=800" alt="Kandy Temple of the Tooth" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1620619767323-b95a89183081?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Central Highlands</span>
+              <h3 class="destination-name">Kandy</h3>
+              <p class="destination-desc">Sri Lanka's sacred cultural capital, home to the revered Sacred Tooth Relic and Royal Botanical Gardens.</p>
+            </div>
+          </div>
+
+          <!-- Yala -->
+          <div class="destination-item" onclick="openAttractionDetail('Yala National Park')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_at_Yala_National_Park.jpg?width=800" alt="Leopard Yala National Park" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Wildlife Frontier</span>
+              <h3 class="destination-name">Yala</h3>
+              <p class="destination-desc">The world's highest density of wild leopards, roaming alongside elephants, sloth bears, and crocodiles.</p>
+            </div>
+          </div>
+
+          <!-- Galle -->
+          <div class="destination-item" onclick="openAttractionDetail('Galle Fort')">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse_Galle,_Sri_Lanka.jpg?width=800" alt="Galle Fort Lighthouse" class="destination-img" onerror="this.src='https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=800&q=80'">
+            <div class="destination-overlay">
+              <span class="destination-tag">Colonial Heritage</span>
+              <h3 class="destination-name">Galle</h3>
+              <p class="destination-desc">UNESCO-listed 17th-century Dutch fortress with cobblestone streets, chic boutiques, and ocean bastions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+          <button type="button" class="btn btn-primary" onclick="navigateTo('attractions')">
+            <i class="fa-solid fa-earth-asia"></i> Explore All 20+ Attractions
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST & SATISFACTION STATS -->
+    <div class="container">
+      <div class="stats-bar">
+        <div class="stat-box">
+          <div class="stat-number">15,000<span>+</span></div>
+          <div class="stat-desc">Delighted Guests Hosted</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">99.4<span>%</span></div>
+          <div class="stat-desc">5-Star Satisfaction Rate</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">250<span>+</span></div>
+          <div class="stat-desc">Bespoke Itineraries Run</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">24<span>/7</span></div>
+          <div class="stat-desc">Concierge & Guide Support</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CALL TO ACTION BANNER -->
+    <div class="container">
+      <div class="cta-banner">
+        <h2>YOUR SRI LANKAN ADVENTURE STARTS HERE</h2>
+        <p>
+          Let our local island specialists design your dream itinerary. Whether you crave a relaxing beach retreat, a high-octane safari, or an intimate cultural journey, we make it effortlessly real.
+        </p>
+        <button type="button" class="btn btn-gold" onclick="openBookingModal()" style="font-size: 1.1rem; padding: 18px 42px;">
+          <i class="fa-solid fa-paper-plane"></i> PLAN YOUR TRIP NOW
+        </button>
+      </div>
+    </div>
+
+  </main>
+  <!-- ========================================================
+       PAGE 02: TOURS PAGE VIEW
+       ======================================================== -->
+  <section id="tours-page" class="page-section">
+    <!-- Tours Hero Banner -->
+    <div style="background: linear-gradient(rgba(10, 37, 64, 0.78), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 0 70px; text-align: center; color: #ffffff;">
+      <div class="container">
+        <span class="hero-tag"><i class="fa-solid fa-compass"></i> Custom & Private Sri Lanka Packages</span>
+        <h1 style="color: #ffffff; font-size: clamp(2.3rem, 4.5vw, 3.8rem); margin-bottom: 16px;">EXPLORE OUR SRI LANKA TOURS</h1>
+        <p style="color: #e2e8f0; font-size: 1.15rem; max-width: 720px; margin: 0 auto;">
+          Find the perfect journey to discover the wonders of Sri Lanka. From UNESCO World Heritage citadels to private beach villas and leopard safaris.
+        </p>
+      </div>
+    </div>
+
+    <!-- Tours Filter & Search Toolbar -->
+    <div class="section-padding" style="padding-top: 50px;">
+      <div class="container">
+        <div class="filter-wrapper">
+          <!-- Search Input -->
+          <div class="filter-search-box">
+            <i class="fa-solid fa-magnifying-glass filter-search-icon"></i>
+            <input type="text" id="toursSearchInput" class="filter-search-input" placeholder="Search tours by destination, keyword or duration..." oninput="handleToursSearch()">
+          </div>
+
+          <!-- Category Filter Pills (All 8 Categories) -->
+          <div class="category-pills" id="tourCategoryPills">
+            <button type="button" class="category-pill active" onclick="filterTours('all', this)">All Tours</button>
+            <button type="button" class="category-pill" onclick="filterTours('Cultural', this)">Cultural & Heritage</button>
+            <button type="button" class="category-pill" onclick="filterTours('Wildlife', this)">Wildlife & Safari</button>
+            <button type="button" class="category-pill" onclick="filterTours('Beach', this)">Beach & Coastal</button>
+            <button type="button" class="category-pill" onclick="filterTours('Hill Country', this)">Hill Country</button>
+            <button type="button" class="category-pill" onclick="filterTours('Adventure', this)">Adventure & Nature</button>
+            <button type="button" class="category-pill" onclick="filterTours('Family', this)">Family Tours</button>
+            <button type="button" class="category-pill" onclick="filterTours('Honeymoon', this)">Honeymoon Tours</button>
+            <button type="button" class="category-pill" onclick="filterTours('Round Island', this)">Round Island</button>
+          </div>
+        </div>
+
+        <!-- Tours Grid Container -->
+        <div class="tours-grid" id="allToursContainer">
+          <!-- Populated dynamically via JS with all tour packages -->
+        </div>
+
+        <div id="noToursFound" style="display: none; text-align: center; padding: 60px 20px;">
+          <i class="fa-solid fa-compass-slash" style="font-size: 3rem; color: #94a3b8; margin-bottom: 16px;"></i>
+          <h3 style="color: var(--primary-navy); margin-bottom: 8px;">No Tours Matching Your Criteria</h3>
+          <p style="color: var(--text-muted); margin-bottom: 20px;">Try searching for a different destination or reset the filters.</p>
+          <button type="button" class="btn btn-primary" onclick="resetTourFilters()">Reset All Filters</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PAGE 03: SRI LANKA ATTRACTIONS PAGE VIEW
+       ======================================================== -->
+  <section id="attractions-page" class="page-section">
+    <!-- Attractions Hero Banner -->
+    <div style="background: linear-gradient(rgba(10, 37, 64, 0.78), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1588598198321-9735fd52455b?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 0 70px; text-align: center; color: #ffffff;">
+      <div class="container">
+        <span class="hero-tag"><i class="fa-solid fa-map"></i> Destination Showcase</span>
+        <h1 style="color: #ffffff; font-size: clamp(2.3rem, 4.5vw, 3.8rem); margin-bottom: 16px;">DISCOVER THE BEAUTY OF SRI LANKA</h1>
+        <p style="color: #e2e8f0; font-size: 1.15rem; max-width: 760px; margin: 0 auto;">
+          Immerse yourself in legendary cultural sanctuaries, misty mountain peaks, untouched tropical bays, and world-renowned national parks.
+        </p>
+      </div>
+    </div>
+
+    <!-- Attractions Filter & Grid -->
+    <div class="section-padding" style="padding-top: 50px;">
+      <div class="container">
+        <div class="filter-wrapper">
+          <!-- Attraction Category Filter Pills -->
+          <div class="category-pills" id="attractionCategoryPills">
+            <button type="button" class="category-pill active" onclick="filterAttractions('all', this)">All Attractions (20)</button>
+            <button type="button" class="category-pill" onclick="filterAttractions('Cultural and Historical Places', this)">Cultural & Historical (6)</button>
+            <button type="button" class="category-pill" onclick="filterAttractions('Nature and Hill Country', this)">Nature & Hill Country (6)</button>
+            <button type="button" class="category-pill" onclick="filterAttractions('Beach Destinations', this)">Beach Destinations (6)</button>
+            <button type="button" class="category-pill" onclick="filterAttractions('Wildlife Destinations', this)">Wildlife Destinations (4)</button>
+          </div>
+        </div>
+
+        <!-- Attractions Grid Container -->
+        <div class="attractions-grid" id="attractionsGrid">
+          <!-- Populated dynamically via JS with all 20 attractions -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================================================
+       PAGE 04: ABOUT US PAGE VIEW
+       ======================================================== -->
+  <section id="about-page" class="page-section">
+    <!-- About Hero Banner -->
+    <div style="background: linear-gradient(rgba(10, 37, 64, 0.78), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 0 70px; text-align: center; color: #ffffff;">
+      <div class="container">
+        <span class="hero-tag"><i class="fa-solid fa-hotel"></i> Genuine Island Hospitality</span>
+        <h1 style="color: #ffffff; font-size: clamp(2.3rem, 4.5vw, 3.8rem); margin-bottom: 16px;">YOUR TRUSTED TRAVEL PARTNER IN SRI LANKA</h1>
+        <p style="color: #e2e8f0; font-size: 1.15rem; max-width: 760px; margin: 0 auto;">
+          Crafting soulful, luxurious, and culturally authentic journeys through Sri Lanka with passion, professionalism, and local knowledge.
+        </p>
+      </div>
+    </div>
+
+    <!-- Company Story Section -->
+    <div class="section-padding">
+      <div class="container">
+        <div class="about-story-grid">
+          <div>
+            <span class="section-badge"><i class="fa-solid fa-book-open"></i> Our Story & Heritage</span>
+            <h2 style="font-size: clamp(2rem, 3.2vw, 2.7rem); margin-bottom: 20px; line-height: 1.25;">Born from a Passion for Ceylon's Timeless Wonders</h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 18px; line-height: 1.7;">
+              Founded and operated from the historic coastal city of Kalutara, <strong>Go Ceylon Travels</strong> was born out of a profound love for our island nation. Sri Lanka is not just a destination for us; it is our beloved home, rich with over 2,500 years of recorded civilization, untamed wilderness, and warmth found nowhere else on earth.
+            </p>
+            <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 24px; line-height: 1.7;">
+              We believe travel should be more than sightseeing — it should be a transformative experience. From the moment you land at Bandaranaike International Airport until you board your return flight, our private chauffeurs, localized travel designers, and 24/7 concierge look after every minute detail of your holiday.
+            </p>
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+              <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 16px 22px; flex: 1; min-width: 200px;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--tropical-green);">100%</div>
+                <div style="font-size: 0.88rem; color: var(--text-muted); font-weight: 600;">Locally Owned & Operated</div>
+              </div>
+              <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 16px 22px; flex: 1; min-width: 200px;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-gold);">SLTDA</div>
+                <div style="font-size: 0.88rem; color: var(--text-muted); font-weight: 600;">Compliant & Registered Guides</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stilt_fishing_-Koggala,Sri_Lanka.jpg?width=1000" 
+                 alt="Traditional Stilt Fishermen Koggala Sri Lanka" 
+                 style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); width: 100%; height: 480px; object-fit: cover;"
+                 onerror="this.src='https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1000&q=80'">
+          </div>
+        </div>
+
+        <!-- Mission & Vision & Values -->
+        <div class="about-values-grid">
+          <div class="about-value-card">
+            <div class="about-value-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 12px;">Our Mission</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+              To curate bespoke, sustainable, and unforgettable Sri Lankan journeys that immerse travelers in rich cultural heritage, untamed wildlife, and breathtaking natural wonders while uplifting local communities.
+            </p>
+          </div>
+
+          <div class="about-value-card" style="border-top-color: var(--tropical-green);">
+            <div class="about-value-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--tropical-green);"><i class="fa-solid fa-eye"></i></div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 12px;">Our Vision</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+              To be recognized globally as Sri Lanka's leading boutique tour operator, setting the benchmark for ethical tourism, customer satisfaction, transparent pricing, and personalized luxury travel.
+            </p>
+          </div>
+
+          <div class="about-value-card" style="border-top-color: var(--primary-navy);">
+            <div class="about-value-icon" style="background: rgba(10, 37, 64, 0.12); color: var(--primary-navy);"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 12px;">Why Travel With Us</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">
+              Direct local rates with no overseas middleman fees, vetted luxury stays, modern private vehicles with Wi-Fi, and authentic insider experiences you simply cannot book on generic booking engines.
+            </p>
+          </div>
+        </div>
+
+        <!-- Modern Fleet & Services Showcase -->
+        <div style="background: #ffffff; border-radius: var(--radius-lg); padding: 50px 40px; box-shadow: var(--shadow-md); border: 1px solid #e2e8f0; margin-bottom: 70px;">
+          <div class="section-header" style="margin-bottom: 40px;">
+            <span class="section-badge"><i class="fa-solid fa-shield"></i> Safety & Luxury</span>
+            <h2 class="section-title">Our Premium Fleet & Chauffeur Services</h2>
+            <p class="section-subtitle">
+              Enjoy peaceful journeys across Sri Lanka's scenic roads in modern, fully insured, climate-controlled vehicles maintained to the highest safety standards.
+            </p>
+          </div>
+
+          <div class="fleet-grid">
+            <div class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80" alt="Executive Sedan Fleet" class="fleet-img">
+              <div class="fleet-body">
+                <h4 style="font-size: 1.15rem; margin-bottom: 6px;">Executive Sedans</h4>
+                <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 12px;">Ideal for solo travelers & couples seeking comfortable, agile private touring.</p>
+                <div style="font-size: 0.82rem; font-weight: 700; color: var(--tropical-green);">1-2 Passengers | 2 Large Bags | Wi-Fi</div>
+              </div>
+            </div>
+
+            <div class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80" alt="Luxury Family Van Fleet" class="fleet-img">
+              <div class="fleet-body">
+                <h4 style="font-size: 1.15rem; margin-bottom: 6px;">Luxury Mini Vans</h4>
+                <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 12px;">Toyota KDH / Commuter vans with generous legroom and luggage space.</p>
+                <div style="font-size: 0.82rem; font-weight: 700; color: var(--tropical-green);">3-6 Passengers | 6 Bags | Cool Box & Wi-Fi</div>
+              </div>
+            </div>
+
+            <div class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80" alt="Safari 4x4 Jeeps" class="fleet-img">
+              <div class="fleet-body">
+                <h4 style="font-size: 1.15rem; margin-bottom: 6px;">Custom 4x4 Safari Jeeps</h4>
+                <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 12px;">Elevated open-top safari jeeps designed for optimal photography in Yala & Minneriya.</p>
+                <div style="font-size: 0.82rem; font-weight: 700; color: var(--tropical-green);">Up to 6 Guests | High-Clearance Suspension</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ ACCORDION -->
+        <div class="section-header" style="margin-bottom: 35px;">
+          <span class="section-badge"><i class="fa-solid fa-circle-question"></i> Help & Guidance</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Everything international travelers need to know when planning an unforgettable visit to Sri Lanka.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item active">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span>Do I need a visa to enter Sri Lanka?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes, most foreign nationals require an Electronic Travel Authorization (ETA/eVisa) prior to arrival. It can be conveniently applied for online through the official Sri Lankan immigration portal. We are glad to guide you through this quick process.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span>When is the best time of year to visit Sri Lanka?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Sri Lanka is a genuine year-round destination! Because it has two distinct monsoon patterns, when the South and West coasts experience rain (May to September), the East coast (Arugam Bay, Trincomalee) enjoys glorious sunshine. From December to April, the South and Hill Country have ideal sunny weather.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span>Can we customize any of the itineraries?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Absolutely! 100% of our tours are fully customizable. You can adjust the number of days, swap hotels, add extra rest days on the beach, include scenic train rides, or tailor activities according to your family's preferences.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span>Are your drivers licensed and English-speaking?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes. All our private chauffeur guides are licensed by the Sri Lanka Tourism Development Authority (SLTDA), background-checked, courteous, and speak fluent English. We can also provide German, French, or Russian speaking guides upon advance request.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span>How does booking and payment work?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Submitting an inquiry through our website is completely free and obligation-free. Our team will prepare a detailed day-by-day proposal with clear transparent pricing. Once you approve the itinerary, we secure bookings with a modest deposit, with the balance payable upon arrival.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PAGE 05: CONTACT US PAGE VIEW
+       ======================================================== -->
+  <section id="contact-page" class="page-section">
+    <!-- Contact Hero Banner -->
+    <div style="background: linear-gradient(rgba(10, 37, 64, 0.78), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 0 70px; text-align: center; color: #ffffff;">
+      <div class="container">
+        <span class="hero-tag"><i class="fa-solid fa-headset"></i> We Are Here For You</span>
+        <h1 style="color: #ffffff; font-size: clamp(2.3rem, 4.5vw, 3.8rem); margin-bottom: 16px;">CONTACT GO CEYLON TRAVELS</h1>
+        <p style="color: #e2e8f0; font-size: 1.15rem; max-width: 720px; margin: 0 auto;">
+          Have questions about planning your trip? Get in touch with our friendly Sri Lanka holiday designers today.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Details & Form Section -->
+    <div class="section-padding">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info Panel -->
+          <div class="contact-info-panel">
+            <div>
+              <span class="section-badge" style="background: rgba(212, 175, 55, 0.2); color: var(--accent-gold);"><i class="fa-solid fa-envelope-open-text"></i> Reach Out Directly</span>
+              <h3 style="margin-top: 12px; margin-bottom: 12px;">Let's Discuss Your Dream Holiday</h3>
+              <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.6;">
+                Whether you are planning a solo adventure, a romantic honeymoon, or a grand family reunion across Sri Lanka, we provide honest advice and fast responses.
+              </p>
+            </div>
+
+            <!-- WhatsApp Direct Card -->
+            <div class="contact-item">
+              <div class="contact-icon" style="background: #25d366; color: #ffffff;"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="contact-detail">
+                <h4>WhatsApp (Instant Response)</h4>
+                <p><a href="https://wa.me/94777613691" target="_blank" rel="noopener">+94 77 761 3691</a></p>
+                <div style="font-size: 0.78rem; color: #a7f3d0; margin-top: 2px;">Available 24/7 for travelers</div>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-detail">
+                <h4>Call Our Office</h4>
+                <p><a href="tel:+94777613691">+94 77 761 3691</a></p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-detail">
+                <h4>Official Email</h4>
+                <p><a href="mailto:goceylon.travels@gmail.com">goceylon.travels@gmail.com</a></p>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-detail">
+                <h4>Headquarters Office</h4>
+                <p>Go Ceylon Travels, Palathota Road, Kalutara, Sri Lanka</p>
+              </div>
+            </div>
+
+            <div style="margin-top: auto; padding-top: 18px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+              <h4 style="font-size: 0.88rem; color: #cbd5e1; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.08em;">Connect on Social Media</h4>
+              <div class="top-socials" style="margin-left: 0;">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="TripAdvisor"><i class="fa-brands fa-tripadvisor"></i></a>
+                <a href="https://wa.me/94777613691" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.8rem; margin-bottom: 8px;">Send Us a Message</h3>
+            <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
+              Fill in the form below and one of our travel consultants will reply within 12 hours.
+            </p>
+
+            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Full Name <span>*</span></label>
+                  <input type="text" class="form-control" id="contactName" placeholder="e.g. Michael Smith" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Email Address <span>*</span></label>
+                  <input type="email" class="form-control" id="contactEmail" placeholder="e.g. michael@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Phone / WhatsApp Number <span>*</span></label>
+                  <input type="tel" class="form-control" id="contactPhone" placeholder="e.g. +44 7911 123456" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Subject <span>*</span></label>
+                  <input type="text" class="form-control" id="contactSubject" placeholder="e.g. Tour Inquiry for 2 Weeks" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Your Message <span>*</span></label>
+                <textarea class="form-control" id="contactMessage" placeholder="Tell us about your travel dates, preferred destinations, group size, and any special requests..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold" style="width: 100%; padding: 15px;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Google Maps Location Section -->
+        <div style="margin-top: 60px;">
+          <div class="section-header" style="margin-bottom: 25px;">
+            <span class="section-badge"><i class="fa-solid fa-map-pin"></i> Visit Us</span>
+            <h2 class="section-title">Our Office Location</h2>
+            <p class="section-subtitle">Conveniently located on Palathota Road, Kalutara along the scenic southwest coast of Sri Lanka.</p>
+          </div>
+          <div class="map-frame-wrapper">
+            <iframe 
+              src="https://maps.google.com/maps?q=Kalutara,%20Sri%20Lanka&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+              title="Go Ceylon Travels Kalutara Sri Lanka Location Map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Bio -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="logo-symbol">
+              <i class="fa-solid fa-umbrella-beach"></i>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title" style="color: #ffffff;">GO CEYLON <span style="color: var(--tropical-green-light);">TRAVELS</span></span>
+              <span class="logo-subtitle">EXPLORE SRI LANKA. EXPERIENCE PARADISE.</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            Go Ceylon Travels is a premier Sri Lankan tour operator specializing in authentic, tailor-made travel experiences. From UNESCO ancient kingdoms and misty tea gardens to thrilling wildlife safaris and pristine southern beaches.
+          </p>
+          <div class="top-socials" style="margin-left: 0;">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="TripAdvisor"><i class="fa-brands fa-tripadvisor"></i></a>
+            <a href="https://wa.me/94777613691" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col">
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links">
+            <li class="footer-link-item" onclick="navigateTo('home')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Home</li>
+            <li class="footer-link-item" onclick="navigateTo('tours')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Tour Packages</li>
+            <li class="footer-link-item" onclick="navigateTo('attractions')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Sri Lanka Attractions</li>
+            <li class="footer-link-item" onclick="navigateTo('about')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> About Us</li>
+            <li class="footer-link-item" onclick="navigateTo('contact')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Contact Us</li>
+            <li class="footer-link-item" onclick="openBookingModal()"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Book a Custom Tour</li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Tour Categories -->
+        <div class="footer-col">
+          <h4>Tour Styles</h4>
+          <ul class="footer-links">
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Cultural')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Cultural & Heritage</li>
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Wildlife')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Wildlife & Safari</li>
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Beach')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Beach & Coastal</li>
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Hill Country')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Hill Country Scenic</li>
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Honeymoon')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Honeymoon Specials</li>
+            <li class="footer-link-item" onclick="navigateTo('tours'); filterTours('Round Island')"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> Grand Round Island</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div class="footer-col">
+          <h4>Head Office Contact</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Go Ceylon Travels, Palathota Road, Kalutara, Sri Lanka</span>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://wa.me/94777613691" target="_blank" rel="noopener">+94 77 761 3691 (24/7 WhatsApp)</a>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+94777613691">+94 77 761 3691</a>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:goceylon.travels@gmail.com">goceylon.travels@gmail.com</a>
+            </li>
+          </ul>
+          <div style="margin-top: 20px;">
+            <button type="button" class="btn btn-gold btn-sm" onclick="openAdminModal()">
+              <i class="fa-solid fa-lock"></i> Inquiries Portal
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> <strong>Go Ceylon Travels</strong>. All rights reserved. Registered Sri Lankan Tour Operator.
+        </div>
+        <div style="color: #64748b;">
+          Tagline: <em>Explore Sri Lanka. Experience Paradise.</em>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ========================================================
+       FLOATING ELEMENTS (WHATSAPP & BACK TO TOP)
+       ======================================================== -->
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/94777613691?text=Hello%20Go%20Ceylon%20Travels!%20I%20would%20like%20to%20inquire%20about%20a%20private%20tour%20package%20in%20Sri%20Lanka." 
+     target="_blank" 
+     rel="noopener" 
+     class="floating-whatsapp" 
+     id="floatingWhatsApp" 
+     aria-label="Chat with Go Ceylon Travels on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-wa-tooltip">Chat with us on WhatsApp</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Scroll to top" onclick="scrollToTop()">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================================
+       MODAL 01: TOUR BOOKING INQUIRY SYSTEM MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(212, 175, 55, 0.2); display: flex; align-items: center; justify-content: center; color: var(--accent-gold);">
+            <i class="fa-solid fa-calendar-check" style="font-size: 1.2rem;"></i>
+          </div>
+          <div>
+            <h3>Book Your Sri Lanka Tour</h3>
+            <div style="font-size: 0.8rem; color: #cbd5e1;">Tailor-Made Private Booking Inquiry (No upfront payment required)</div>
+          </div>
+        </div>
+        <button type="button" class="modal-close-btn" onclick="closeBookingModal()">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+          <!-- Personal Info -->
+          <div style="margin-bottom: 24px;">
+            <h4 style="font-size: 1.05rem; margin-bottom: 14px; color: var(--primary-navy); border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
+              <i class="fa-solid fa-user" style="color: var(--tropical-green); margin-right: 6px;"></i> Guest Information
+            </h4>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Full Name <span>*</span></label>
+                <input type="text" class="form-control" id="bookFullName" placeholder="e.g. David Miller" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address <span>*</span></label>
+                <input type="email" class="form-control" id="bookEmail" placeholder="e.g. david.miller@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">WhatsApp / Contact Number <span>*</span></label>
+                <input type="tel" class="form-control" id="bookPhone" placeholder="e.g. +44 7911 123456" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Your Country / Nationality <span>*</span></label>
+                <select class="form-control" id="bookCountry" required>
+                  <option value="" disabled selected>Select your country</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="Germany">Germany</option>
+                  <option value="France">France</option>
+                  <option value="Australia">Australia</option>
+                  <option value="United States">United States</option>
+                  <option value="Canada">Canada</option>
+                  <option value="India">India</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Switzerland">Switzerland</option>
+                  <option value="Netherlands">Netherlands</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Sri Lanka">Sri Lanka (Local Resident)</option>
+                  <option value="Other">Other International Country</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Details -->
+          <div style="margin-bottom: 24px;">
+            <h4 style="font-size: 1.05rem; margin-bottom: 14px; color: var(--primary-navy); border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
+              <i class="fa-solid fa-map-marked-alt" style="color: var(--tropical-green); margin-right: 6px;"></i> Tour Itinerary & Timing
+            </h4>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Select Tour Package <span>*</span></label>
+                <select class="form-control" id="bookTourPackage" required>
+                  <option value="Sri Lanka Cultural Tour (7 Days)">Sri Lanka Cultural Tour (7 Days / 6 Nights)</option>
+                  <option value="Wildlife Safari Experience (6 Days)">Wildlife Safari Experience (6 Days / 5 Nights)</option>
+                  <option value="Southern Coast Beach Tour (5 Days)">Southern Coast Beach Tour (5 Days / 4 Nights)</option>
+                  <option value="Hill Country Adventure (6 Days)">Hill Country Adventure (6 Days / 5 Nights)</option>
+                  <option value="Sri Lanka Round Tour (12 Days)">Sri Lanka Round Tour (12 Days / 11 Nights)</option>
+                  <option value="Adventure and Nature Tours (8 Days)">Adventure and Nature Tours (8 Days / 7 Nights)</option>
+                  <option value="Family Holiday Special (10 Days)">Family Holiday Special (10 Days / 9 Nights)</option>
+                  <option value="Romantic Honeymoon Escape (8 Days)">Romantic Honeymoon Escape (8 Days / 7 Nights)</option>
+                  <option value="Custom / Tailor-Made Itinerary">Custom / Tailor-Made Itinerary</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Preferred Travel Date <span>*</span></label>
+                <input type="date" class="form-control" id="bookDate" required>
+              </div>
+            </div>
+
+            <div class="form-row" style="grid-template-columns: repeat(3, 1fr);">
+              <div class="form-group">
+                <label class="form-label">Adults (12+ yrs) <span>*</span></label>
+                <input type="number" class="form-control" id="bookAdults" min="1" max="50" value="2" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Children (Under 12)</label>
+                <input type="number" class="form-control" id="bookChildren" min="0" max="20" value="0">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Duration (Days) <span>*</span></label>
+                <input type="number" class="form-control" id="bookDays" min="1" max="60" value="7" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Preferred Pickup Location <span>*</span></label>
+              <select class="form-control" id="bookPickup" required>
+                <option value="Bandaranaike International Airport (CMB / BIA)">Bandaranaike International Airport (CMB / BIA) - Colombo</option>
+                <option value="Colombo City Hotel">Colombo City Hotel</option>
+                <option value="Negombo Beach Hotel">Negombo Beach Hotel</option>
+                <option value="Kalutara / Wadduwa Resort">Kalutara / Wadduwa Resort</option>
+                <option value="Bentota / Beruwala Resort">Bentota / Beruwala Resort</option>
+                <option value="Galle / Unawatuna Hotel">Galle / Unawatuna Hotel</option>
+                <option value="Kandy City Hotel">Kandy City Hotel</option>
+                <option value="Mattala Rajapaksa Airport (HRI)">Mattala Rajapaksa International Airport (HRI)</option>
+                <option value="Other Location">Other (Specified in notes below)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Special Requirements / Additional Message</label>
+              <textarea class="form-control" id="bookRequirements" placeholder="Tell us about your preferred hotel categories (3-Star, 4-Star, 5-Star Boutique), dietary requirements, children's ages, or any special places you want to see..."></textarea>
+            </div>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 16px; margin-bottom: 24px; font-size: 0.88rem; color: var(--text-muted); display: flex; align-items: center; gap: 12px;">
+            <i class="fa-solid fa-lock" style="color: var(--tropical-green); font-size: 1.2rem;"></i>
+            <span>No upfront payment needed. We will confirm availability and send your personalized day-by-day itinerary proposal.</span>
+          </div>
+
+          <div style="display: flex; gap: 14px; justify-content: flex-end;">
+            <button type="button" class="btn btn-outline-white" style="color: var(--primary-navy); border-color: #cbd5e1;" onclick="closeBookingModal()">Cancel</button>
+            <button type="submit" class="btn btn-gold" style="padding: 14px 34px;">
+              <i class="fa-solid fa-paper-plane"></i> SUBMIT BOOKING REQUEST
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL 02: BOOKING CONFIRMATION & RECEIPT MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="confirmationModal">
+    <div class="modal-box" style="max-width: 650px; text-align: center;">
+      <div class="modal-body" style="padding: 45px 35px;">
+        <div style="width: 80px; height: 80px; border-radius: 50%; background: rgba(16, 185, 129, 0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--tropical-green); font-size: 2.5rem;">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h2 style="font-size: 1.9rem; margin-bottom: 10px; color: var(--primary-navy);">Booking Request Received!</h2>
+        <p style="color: var(--text-muted); margin-bottom: 24px;">
+          Thank you for choosing <strong>Go Ceylon Travels</strong>. Your inquiry has been logged in our reservations database.
+        </p>
+
+        <!-- Receipt Card -->
+        <div id="receiptDetails" style="background: #f8fafc; border: 1.5px dashed #cbd5e1; border-radius: var(--radius-md); padding: 22px; text-align: left; margin-bottom: 24px;">
+          <!-- Injected dynamically via JS -->
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <a id="btnWhatsAppConfirm" href="#" target="_blank" rel="noopener" class="btn" style="background: #25d366; color: #ffffff; padding: 14px; font-size: 1.02rem;">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp with this Booking
+          </a>
+          <button type="button" class="btn btn-navy" onclick="closeConfirmationModal()">
+            Done & Return to Website
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL 03: TOUR DETAIL & ITINERARY MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="tourDetailModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="tourModalTitle">Tour Package Details</h3>
+        <button type="button" class="modal-close-btn" onclick="closeTourDetailModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="tourModalBody">
+        <!-- Injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL 04: ATTRACTION DETAIL MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="attractionDetailModal">
+    <div class="modal-box" style="max-width: 750px;">
+      <div class="modal-header">
+        <h3 id="attractionModalTitle">Attraction Overview</h3>
+        <button type="button" class="modal-close-btn" onclick="closeAttractionDetailModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="attractionModalBody">
+        <!-- Injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL 05: ADMIN INQUIRIES VIEWER
+       ======================================================== -->
+  <div class="modal-backdrop" id="adminModal">
+    <div class="modal-box" style="max-width: 950px;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <i class="fa-solid fa-database" style="color: var(--accent-gold);"></i>
+          <h3>Go Ceylon Travels - Inquiries & Bookings Database</h3>
+        </div>
+        <button type="button" class="modal-close-btn" onclick="closeAdminModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px;">
+          <div style="font-size: 0.95rem; color: var(--text-muted);">
+            Inquiries stored securely in the client system database: <strong id="adminCount" style="color: var(--primary-navy);">0 records</strong>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button type="button" class="btn btn-primary btn-sm" onclick="exportInquiriesCSV()">
+              <i class="fa-solid fa-file-csv"></i> Export to CSV
+            </button>
+            <button type="button" class="btn btn-outline-white btn-sm" style="color: #ef4444; border-color: #ef4444;" onclick="clearAdminRecords()">
+              <i class="fa-solid fa-trash"></i> Clear All
+            </button>
+          </div>
+        </div>
+
+        <div id="adminTableWrapper" style="overflow-x: auto; border: 1px solid #e2e8f0; border-radius: var(--radius-md);">
+          <!-- Admin Table injected via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================================================
+       JAVASCRIPT: INTERACTIVE CONTROLLER, DATA & LOGIC
+       ======================================================== -->
+  <script>
+    /* ============================================================
+       GO CEYLON TRAVELS - COMPLETE CLIENT-SIDE LOGIC & DATABASE
+       ============================================================ */
+
+    // --- 1. DATA: TOURS CATALOG (8 Complete Tour Packages) ---
+    const toursData = [
+      {
+        id: "tour-cultural",
+        title: "Sri Lanka Cultural Tour",
+        category: "Cultural",
+        duration: "7 Days / 6 Nights",
+        rating: 4.9,
+        reviewsCount: 148,
+        priceFrom: "$680",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sigiriya_Sri_lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Journey through 2,500 years of civilization across the UNESCO Cultural Triangle, ancient kingdoms, and sacred temples.",
+        highlights: [
+          "Sigiriya Lion Rock Fortress climb",
+          "Golden Cave Temple of Dambulla",
+          "Sacred Temple of the Tooth Relic, Kandy",
+          "Ancient city ruins of Polonnaruwa"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Arrival & Negombo Coastal Warmup", desc: "VIP airport pickup by your private chauffeur guide. Transfer to Negombo beach resort to relax after your flight." },
+          { day: "Day 02", title: "Dambulla Cave Temple & Sigiriya", desc: "Journey to the UNESCO golden cave monastery of Dambulla. Check into your luxury jungle lodge near Sigiriya." },
+          { day: "Day 03", title: "Sigiriya Lion Rock & Hiriwadunna Village", desc: "Early morning ascent of Sigiriya Lion Rock before the heat. Afternoon traditional catamaran ride and village lunch." },
+          { day: "Day 04", title: "Polonnaruwa Ancient Kingdom By Bicycle", desc: "Explore the medieval royal capital, Gal Vihara giant rock Buddha statues, and ancient irrigation reservoirs." },
+          { day: "Day 05", title: "Spice Gardens & Royal Kandy", desc: "Travel to sacred Kandy via Matale spice gardens. Evening cultural dance performance and Temple of the Tooth visit." },
+          { day: "Day 06", title: "Peradeniya Royal Botanical Gardens", desc: "Wander through 147 acres of tropical flora, orchid houses, and giant bamboo groves. Scenic lake walk." },
+          { day: "Day 07", title: "Colombo City & Departure", desc: "Scenic drive to Colombo for colonial architecture and souvenir shopping before airport drop-off." }
+        ],
+        inclusions: ["Private A/C Vehicle & Chauffeur Guide", "Boutique 4-Star Hotel Accommodations", "Daily Breakfasts & Dinners", "All UNESCO Site Entry Tickets"],
+        exclusions: ["International Flights", "Personal Expenses & Alcoholic Drinks", "Travel Insurance", "Chauffeur Gratuities"]
+      },
+      {
+        id: "tour-wildlife",
+        title: "Wildlife Safari Experience",
+        category: "Wildlife",
+        duration: "6 Days / 5 Nights",
+        rating: 5.0,
+        reviewsCount: 122,
+        priceFrom: "$790",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_at_Yala_National_Park.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Encounter roaming elephants, wild leopards, sloth bears, and exotic birds across Sri Lanka's premier national parks.",
+        highlights: [
+          "Exclusive Leopard Safari in Yala National Park",
+          "Elephant Gathering at Minneriya National Park",
+          "Udawalawe Elephant Transit Home visit",
+          "Private 4x4 open-top safari jeeps with trackers"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Airport to Wilpattu Wilderness", desc: "Private pickup and transfer to the tranquil wilderness edge of Wilpattu National Park. Evening birdwatching." },
+          { day: "Day 02", title: "Full-Day Safari in Wilpattu", desc: "Traverse pristine natural water lakes (villus) tracking leopards, sloth bears, and barking deer." },
+          { day: "Day 03", title: "Minneriya Elephant Gathering", desc: "Drive to Habarana. Late afternoon jeep safari witnessing hundreds of wild elephants grazing by the ancient tank." },
+          { day: "Day 04", title: "Scenic Hill Country to Yala", desc: "Travel south past dramatic waterfalls to the southern border of Yala National Park. Stay in eco-luxury tents." },
+          { day: "Day 05", title: "Dawn & Dusk Yala Safari", desc: "Two extensive 4x4 safaris inside Block 1 and 2, maximizing your chances of spotting Sri Lankan leopards and bears." },
+          { day: "Day 06", title: "Udawalawe Elephant Transit & Colombo", desc: "Visit the milk feeding at Udawalawe Elephant Transit Home for orphaned calves, followed by transfer to Colombo." }
+        ],
+        inclusions: ["All 4x4 Jeep Hires & Wildlife Department Trackers", "Park Entrance Permits & Taxes", "Luxury Safari Lodges & Tents", "All Meals Included"],
+        exclusions: ["International Airfare", "Camera & Drone Permits", "Gratuities for Jeep Drivers"]
+      },
+      {
+        id: "tour-beach",
+        title: "Southern Coast Beach Tour",
+        category: "Beach",
+        duration: "5 Days / 4 Nights",
+        rating: 4.8,
+        reviewsCount: 95,
+        priceFrom: "$520",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Stilt_fishing_-Koggala,Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Golden sands, azure ocean waters, world-class blue whale watching, and sunset strolls along the Galle Dutch Fort bastions.",
+        highlights: [
+          "Mirissa Blue Whale & Dolphin Yacht Cruise",
+          "UNESCO World Heritage Galle Dutch Fort exploration",
+          "Sea Turtle Conservation Hatchery release",
+          "Relaxation at pristine Bentota golden sands"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Colombo to Bentota Beach Haven", desc: "Transfer along the southern expressway to Bentota beach. Relax with water sports and fresh king coconut." },
+          { day: "Day 02", title: "Madu River Safari & Turtle Hatchery", desc: "Boat safari through 64 mangrove islands. Visit a historic cinnamon peeling island and Kosgoda turtle conservation center." },
+          { day: "Day 03", title: "Galle Dutch Fort Heritage Walk", desc: "Explore 17th-century cobblestone alleys, boutique cafes, the iconic white lighthouse, and ocean ramparts." },
+          { day: "Day 04", title: "Mirissa Blue Whale Watching Cruise", desc: "Early morning boat expedition into deep waters to spot giant blue whales and playful spinner dolphins." },
+          { day: "Day 05", title: "Scenic Coastal Drive to Airport", desc: "Enjoy a final tropical beach sunrise and fresh seafood lunch before smooth transfer to the international airport." }
+        ],
+        inclusions: ["Beachfront Boutique Resorts", "Madu River Boat Safari", "Mirissa Whale Watching Tickets", "Private Air-Conditioned Transportation"],
+        exclusions: ["Optional Water Sports (Jet Ski, Scuba)", "Personal Bar Bills", "Tips"]
+      },
+      {
+        id: "tour-hillcountry",
+        title: "Hill Country Adventure",
+        category: "Hill Country",
+        duration: "6 Days / 5 Nights",
+        rating: 4.9,
+        reviewsCount: 134,
+        priceFrom: "$640",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Nine_Arch_Bridge.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Misty highlands, scenic mountain train journeys, emerald tea plantations, and hiking up Ella Rock & Little Adam's Peak.",
+        highlights: [
+          "World-famous Kandy to Ella Scenic Train ride",
+          "Iconic Nine Arch Bridge photography in Ella",
+          "Working Ceylon Tea Factory & tasting tour",
+          "Horton Plains National Park trek to World's End"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Arrival to Kandy Hill Capital", desc: "Scenic ascent into the central hills. Evening lake walk and cultural heritage immersion." },
+          { day: "Day 02", title: "Tea Plantations & Nuwara Eliya", desc: "Drive through emerald valleys dotted with tea pluckers. Tour a working tea factory and explore 'Little England'." },
+          { day: "Day 03", title: "Horton Plains & World's End Precipice", desc: "Early morning dawn trek across cloud-forest plateaus to the dramatic 880m sheer drop of World's End." },
+          { day: "Day 04", title: "The Blue Train to Ella & Nine Arch Bridge", desc: "Reserved first-class observation seats on the most scenic train route on earth. Sunset at Nine Arch Bridge." },
+          { day: "Day 05", title: "Little Adam's Peak & Ravana Falls", desc: "Breathtaking panoramic hike up Little Adam's Peak, followed by a visit to roaring Ravana Waterfall." },
+          { day: "Day 06", title: "Descent Through Waterfalls to Airport", desc: "Descending scenic hill passes with stops at tea stalls and rubber estates on the way to Colombo." }
+        ],
+        inclusions: ["Reserved Train Tickets", "Tea Factory Guided Tour with Tasting", "Horton Plains Permits & Guide", "Charming Hill Country Lodges"],
+        exclusions: ["Cold Weather Gear Hire", "Extra Beverages", "Gratuities"]
+      },
+      {
+        id: "tour-roundisland",
+        title: "Sri Lanka Round Tour",
+        category: "Round Island",
+        duration: "12 Days / 11 Nights",
+        rating: 5.0,
+        reviewsCount: 210,
+        priceFrom: "$1,380",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse_Galle,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "The ultimate Grand Ceylon Odyssey covering every iconic jewel: ancient ruins, misty mountains, wildlife safaris, and tropical beaches.",
+        highlights: [
+          "Complete Cultural Triangle (Sigiriya, Dambulla, Kandy)",
+          "Scenic Highland Train ride from Nanu Oya to Ella",
+          "Wild Leopard & Elephant Safari in Yala",
+          "UNESCO Galle Dutch Fort and Mirissa Beach relaxation"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Arrival in Negombo", desc: "Welcome to Sri Lanka! Check into coastal retreat and unwind." },
+          { day: "Day 02-03", title: "Sigiriya, Dambulla & Minneriya", desc: "Climb Sigiriya fortress, marvel at cave frescoes, and see hundreds of wild elephants." },
+          { day: "Day 04-05", title: "Spiritual Kandy & Royal Gardens", desc: "Temple of the Tooth, traditional drumming, and strolls in Peradeniya Botanical Gardens." },
+          { day: "Day 06-07", title: "Misty Nuwara Eliya & Tea Country", desc: "Colonial architecture, tea estates, waterfalls, and cool mountain air." },
+          { day: "Day 08-09", title: "Ella Peaks & Yala Leopard Safari", desc: "Nine Arch Bridge, Little Adam's Peak, and thrilling 4x4 wildlife safari in Yala." },
+          { day: "Day 10-11", title: "Mirissa, Galle Fort & Beach Leisure", desc: "Ocean whale watching, Dutch colonial history, seafood banquets, and beach bliss." },
+          { day: "Day 12", title: "Colombo Capital City & Airport Farewell", desc: "City tour of Colombo's colonial landmarks and shopping before flight departure." }
+        ],
+        inclusions: ["Full Private Transport with Chauffeur", "11 Nights 4/5-Star Handpicked Hotels", "Daily Breakfast & Dinners", "All Safari Jeeps & Entrance Fees"],
+        exclusions: ["International Flights", "Personal Expenses", "Visa Fees"]
+      },
+      {
+        id: "tour-adventure",
+        title: "Adventure and Nature Tours",
+        category: "Adventure",
+        duration: "8 Days / 7 Nights",
+        rating: 4.9,
+        reviewsCount: 88,
+        priceFrom: "$840",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Knuckles_mountain_range_-_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "An adrenaline-fueled expedition featuring white water rafting, Knuckles mountain trekking, rainforest canopy walks, and surfing.",
+        highlights: [
+          "White water rafting on the Kelani River in Kitulgala",
+          "Guided trekking in the UNESCO Knuckles Mountain Range",
+          "Sinharaja Virgin Rainforest endemic birding walk",
+          "Surfing lessons at Weligama or Arugam Bay"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "Arrival & Transfer to Kitulgala", desc: "Head straight to the rainforest adventure hub of Kitulgala." },
+          { day: "Day 02", title: "Kitulgala White Water Rafting & Canyoning", desc: "Tackle Grade 3 & 4 rapids on the scenic Kelani River, waterfall abseiling, and natural rock pool slides." },
+          { day: "Day 03-04", title: "Knuckles Mountain Range Expedition", desc: "Two days of high-altitude ridge trekking through misty pygmy cloud forests and hidden waterfalls." },
+          { day: "Day 05", title: "Ella Rock Peak Ascent", desc: "Challenging morning hike to the sheer summit of Ella Rock offering 360-degree vistas across southern plains." },
+          { day: "Day 06-07", title: "Sinharaja Rainforest & Southern Surf", desc: "Deep jungle trek discovering endemic birds, reptiles, and flora, followed by beginner-to-advanced surf sessions." },
+          { day: "Day 08", title: "Departure", desc: "Transfer to airport with thrilling memories of Ceylon's wild side." }
+        ],
+        inclusions: ["All Adventure Gear & Certified Guides", "Rafting & Canyoning Permits", "Trekking Eco-Lodges", "Nutritious High-Energy Meals"],
+        exclusions: ["Personal Hiking Boots", "Insurance with Extreme Sports Cover"]
+      },
+      {
+        id: "tour-family",
+        title: "Family Holiday Special",
+        category: "Family",
+        duration: "10 Days / 9 Nights",
+        rating: 5.0,
+        reviewsCount: 104,
+        priceFrom: "$1,150",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Udawalawe_national_park.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Gentle pacing, interactive animal encounters, family suites, beach games, and cultural fun designed for travelers of all generations.",
+        highlights: [
+          "Elephant Transit Home foster calf feeding",
+          "Fun tuk-tuk treasure hunt through Kandy",
+          "Scenic Blue Train ride with spacious family carriages",
+          "Safe calm lagoon swimming in Bentota & turtle releases"
+        ],
+        itinerary: [
+          { day: "Day 01-02", title: "Negombo & Pinnawala / Sigiriya", desc: "Child-friendly resort, swimming pool, and gentle morning village tour." },
+          { day: "Day 03-04", title: "Sigiriya Rock Base & Minneriya Safari", desc: "Gentle climb of Sigiriya water gardens followed by open jeep elephant safari." },
+          { day: "Day 05-06", title: "Kandy Cultural Immersion & Train Ride", desc: "Botanical gardens picnic, traditional puppet craft, and the fun hill train ride." },
+          { day: "Day 07-09", title: "Bentota Golden Beach Resort", desc: "Three relaxing days of sun, sandcastle building, sea turtle hatchery, and river cruises." },
+          { day: "Day 10", title: "Sweet Departures", desc: "Comfortable private transfer to the airport." }
+        ],
+        inclusions: ["Family Interconnected Rooms / Suites", "Kid-Friendly Meal Options", "Child Car Safety Seats on Request", "All Excursion Fees"],
+        exclusions: ["Babysitting Services", "International Flights"]
+      },
+      {
+        id: "tour-honeymoon",
+        title: "Romantic Honeymoon Escape",
+        category: "Honeymoon",
+        duration: "8 Days / 7 Nights",
+        rating: 5.0,
+        reviewsCount: 162,
+        priceFrom: "$980",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_Tree_Hill,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Intimate boutique bungalows, candlelit beachside seafood dinners, couples Ayurvedic spa rituals, and romantic mountain hideaways.",
+        highlights: [
+          "Private luxury tea estate bungalow stay in Nuwara Eliya",
+          "Sunset champagne & candlelit dinner on Mirissa Beach",
+          "Couples holistic Ayurvedic rejuvenation treatments",
+          "Private chauffeur with luxury executive sedan"
+        ],
+        itinerary: [
+          { day: "Day 01", title: "VIP Airport Meet & Coastal Retreat", desc: "Chilled tropical garland welcome and private transfer to an oceanfront luxury suite." },
+          { day: "Day 02-03", title: "Kandy Hills & Romantic Tea Planter's Bungalow", desc: "Stargazing from private verandahs, tea estate walking trails, and cozy fireplace dinners." },
+          { day: "Day 04-05", title: "Ella Dream Viewpoint & Nine Arch Bridge", desc: "Private sunrise picnic over Little Adam's Peak and romantic cafe dinners in Ella." },
+          { day: "Day 06-07", title: "Mirissa Boutique Beachfront Luxury", desc: "Private whale yacht charter, sunset cocktails, and candlelit seafood on the sand." },
+          { day: "Day 08", title: "Fond Farewells", desc: "Relaxed breakfast and direct transfer to the airport." }
+        ],
+        inclusions: ["Complimentary Champagne & Cake on Arrival", "Candlelight Beach Dinner", "Couple's Spa Session", "Luxury Boutique Stays"],
+        exclusions: ["Personal Souvenirs", "Tips"]
+      }
+    ];
+const attractionsData = [
+      // CULTURAL AND HISTORICAL PLACES (6)
+      {
+        id: "att-sigiriya",
+        name: "Sigiriya Rock Fortress",
+        category: "Cultural and Historical Places",
+        location: "Matale District, Central Province",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sigiriya_Sri_lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "An awe-inspiring 5th-century citadel perched atop a 200-meter sheer granite rock, featuring ancient frescoes, mirror walls, and lion paws.",
+        highlights: ["5th-century palace ruins of King Kashyapa", "Ancient Sigiriya Maiden frescoes", "World-renowned Lion Gate stairway", "Symmetrical water gardens"],
+        travelTips: "Start the climb at 6:30 AM to beat the tropical midday sun and avoid tourist queues. Wear comfortable climbing shoes and carry water."
+      },
+      {
+        id: "att-kandy-temple",
+        name: "Temple of the Tooth Relic, Kandy",
+        category: "Cultural and Historical Places",
+        location: "Kandy, Central Highlands",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_tooth_sri_lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1620619767323-b95a89183081?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Sri Lanka's most sacred Buddhist shrine, housing the Sacred Tooth Relic of Gautama Buddha within a magnificent golden-roofed royal palace complex.",
+        highlights: ["Golden canopy enshrining the Tooth Relic", "Traditional daily Thevava drumming ceremonies", "Historic Kandy Lake views", "Aluth Maligawa world Buddhist museum"],
+        travelTips: "Dress code requires covered shoulders and knees. White or modest light attire is appreciated. Remove shoes before entering temple premises."
+      },
+      {
+        id: "att-dambulla",
+        name: "Dambulla Cave Temple",
+        category: "Cultural and Historical Places",
+        location: "Dambulla, Cultural Triangle",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Dambulla_Cave_temple.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1588598198321-9735fd52455b?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "The largest and best-preserved rock cave temple monastery in Sri Lanka, boasting five cavernous sanctuaries painted with over 150 Buddha statues.",
+        highlights: ["153 exquisite Buddha statues & 3 kings", "2,100 square meters of vivid ceiling murals", "Magnificent 14-meter reclining Buddha carved in stone", "Panoramic views of Sigiriya in the distance"],
+        travelTips: "The walk up the rock takes 15 minutes. Watch out for curious monkeys along the stairway, and keep sunglasses and food tucked away in bags."
+      },
+      {
+        id: "att-anuradhapura",
+        name: "Anuradhapura",
+        category: "Cultural and Historical Places",
+        location: "North Central Province",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Ruwanwelisaya.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Sri Lanka's first great ancient capital, reigning for over a millennium. Renowned for colossal brick stupas, holy bodhi trees, and monk monasteries.",
+        highlights: ["Jaya Sri Maha Bodhi (oldest historically recorded planted tree in the world)", "Ruwanwelisaya colossal white stupa", "Jetavanaramaya (once the 3rd tallest structure in ancient world)", "Twin Ponds (Kuttam Pokuna) stone engineering"],
+        travelTips: "Hiring bicycles with your Go Ceylon guide is the most serene and enjoyable way to explore the vast spread-out ruins."
+      },
+      {
+        id: "att-polonnaruwa",
+        name: "Polonnaruwa",
+        category: "Cultural and Historical Places",
+        location: "Polonnaruwa District",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Gal_Vihara_Polonnaruwa.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "The splendid medieval capital of Ceylon. A masterpiece of medieval urban planning, royal audience halls, and majestic stone carvings.",
+        highlights: ["Gal Vihara: 4 massive Buddha statues carved out of a single granite rock", "Royal Palace of King Parakramabahu", "Vatadage circular relic house", "Sea of Parakrama massive ancient reservoir"],
+        travelTips: "The ruins are well preserved and compact. Gal Vihara is best visited in late afternoon light for photography."
+      },
+      {
+        id: "att-galle-fort",
+        name: "Galle Fort",
+        category: "Cultural and Historical Places",
+        location: "Galle, Southern Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse_Galle,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A living 17th-century UNESCO World Heritage fortress built by the Portuguese and Dutch, featuring cobblestone lanes, cafes, and ocean ramparts.",
+        highlights: ["Iconic Galle Fort Lighthouse", "Flag Rock cliff jumpers & sunset viewpoint", "Dutch Reformed Church and Groote Kerk", "Chic jewelry, art galleries, and artisanal cafes"],
+        travelTips: "Walk along the ocean ramparts around 5:00 PM to catch one of the most stunning sunsets on the Indian Ocean."
+      },
+
+      // NATURE AND HILL COUNTRY (6)
+      {
+        id: "att-ella",
+        name: "Ella",
+        category: "Nature and Hill Country",
+        location: "Badulla District, Central Highlands",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Ravana_falls.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A chilled mountain village nestled in the southern edge of the central highlands, famous for breathtaking mountain gaps, waterfalls, and hikes.",
+        highlights: ["Ella Gap panoramic views over plains", "Ravana Falls and natural pool", "Vibrant backpacker and foodie dining culture", "Cool tropical mountain climate"],
+        travelTips: "Ella is very walkable. Enjoy fresh local hoppers and Ceylon spiced curry at the hillside terrace cafes."
+      },
+      {
+        id: "att-nine-arch",
+        name: "Nine Arch Bridge",
+        category: "Nature and Hill Country",
+        location: "Demodara, Ella",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Nine_Arch_Bridge.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Also known as the 'Bridge in the Sky', this colonial engineering marvel built entirely of stone bricks and cement without steel spans dense jungle.",
+        highlights: ["Watching the colorful vintage train rumble across the bridge", "Surrounding lush tea bush amphitheater", "Photography from hillside viewpoint cafes", "Walk through Demodara tunnel"],
+        travelTips: "Check the local train schedule with your Go Ceylon guide; trains usually cross in the morning and early afternoon for picture-perfect shots."
+      },
+      {
+        id: "att-little-adams-peak",
+        name: "Little Adam's Peak",
+        category: "Nature and Hill Country",
+        location: "Ella, Hill Country",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Little_Adam%27s_Peak,_Ella,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "An easy and rewarding 45-minute scenic hike passing through working tea plantations to reach dramatic mountain ridges and 360-degree views.",
+        highlights: ["Gentle paved trail suitable for all fitness levels", "Sweeping vistas across Ella Rock and Ravana valley", "Flying Ravana mega zipline option", "Breathtaking sunrise vantage point"],
+        travelTips: "Sunrise hike is magical. You'll see morning mist floating in the valleys below while the golden sun illuminates the peaks."
+      },
+      {
+        id: "att-nuwara-eliya",
+        name: "Nuwara Eliya",
+        category: "Nature and Hill Country",
+        location: "Central Province Highlands",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Nuwara_Eliya_Post_Office_(2).jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Nicknamed 'Little England', this cool mountain resort sits at 1,868 meters elevation surrounded by world-renowned Ceylon tea estates and English Tudor cottages.",
+        highlights: ["Pedro & Mackwoods working tea estates", "Gregory Lake swan boat rides and lakeside walks", "Historic red-brick Post Office built in 1894", "Victoria Park floral gardens"],
+        travelTips: "Temperatures can drop to 10°C (50°F) in the evening. Bring a warm fleece or sweater."
+      },
+      {
+        id: "att-horton-plains",
+        name: "Horton Plains",
+        category: "Nature and Hill Country",
+        location: "Ohiya, Central Highlands",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/World%27s_End,_Horton_Plains_National_Park.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A UNESCO-protected cloud forest plateau at 2,100 meters, climaxing at World's End — a sheer vertical drop plunging 880 meters down to tea plantations.",
+        highlights: ["World's End vertical precipice cliff", "Baker's Falls cascading through fern groves", "Sambar deer roaming the grassland plains", "Purple-faced langur monkeys in mountain canopy"],
+        travelTips: "Arrive at the park gate by 6:00 AM. Cloud mist usually rolls into the precipice by 10:00 AM, obscuring the valley view."
+      },
+      {
+        id: "att-knuckles",
+        name: "Knuckles Mountain Range",
+        category: "Nature and Hill Country",
+        location: "Matale / Kandy Districts",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Knuckles_mountain_range_-_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A rugged wilderness of 34 peaks resembling the knuckles of a clenched fist. Home to rare cloud forests, hidden villages, and cascading crystal streams.",
+        highlights: ["Untouched hiking trails far off the tourist track", "Over 30% of Sri Lanka's endemic flora and fauna", "Isolated village of Meemure", "Crystal clear river bathing pools"],
+        travelTips: "Always trek with an experienced certified Go Ceylon naturalist guide. Leech socks and lightweight trekking gear are recommended."
+      },
+
+      // BEACH DESTINATIONS (6)
+      {
+        id: "att-mirissa",
+        name: "Mirissa",
+        category: "Beach Destinations",
+        location: "Southern Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_Tree_Hill,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A postcard-perfect crescent bay lined with leaning coconut palms, calm turquoise waters, beach shacks, and the world's best blue whale watching.",
+        highlights: ["Coconut Tree Hill famous viewpoint", "Deep-sea Blue Whale and Dolphin yacht cruises", "Parrot Rock island scramble at low tide", "Candlelit seafood grills on the sand"],
+        travelTips: "Whale watching season runs from November to April when seas are tranquil and whales migrate past the southern tip."
+      },
+      {
+        id: "att-unawatuna",
+        name: "Unawatuna",
+        category: "Beach Destinations",
+        location: "Galle District, Southern Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Unawatuna_beach.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A lively golden sand bay protected by a natural coral reef, making it one of the safest spots in Sri Lanka for year-round ocean swimming and snorkeling.",
+        highlights: ["Jungle Beach hidden cove", "Japanese Peace Pagoda with Galle Fort views", "Safe swimming waters for families and kids", "Vibrant beachfront restaurants & yoga shalas"],
+        travelTips: "Take a scenic 15-minute nature walk through the rumassala forest to discover Jungle Beach for snorkeling."
+      },
+      {
+        id: "att-bentota",
+        name: "Bentota",
+        category: "Beach Destinations",
+        location: "Galle District, Southwest Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Lanka,_Bentota,_beach_(2).JPG?width=1000",
+        fallback: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "The prime luxury beach resort enclave of Sri Lanka, offering wide pristine golden beaches, 5-star spa resorts, and thrilling watersports on the lagoon.",
+        highlights: ["Bentota River jet skiing, wakeboarding & windsurfing", "Geoffrey Bawa's architectural country estate Lunuganga", "Broad uncrowded sandy beaches", "Ayurvedic luxury wellness retreats"],
+        travelTips: "Just 20 minutes from our Kalutara office, Bentota offers top-tier luxury hotels with calm ocean conditions from November to April."
+      },
+      {
+        id: "att-arugam-bay",
+        name: "Arugam Bay",
+        category: "Beach Destinations",
+        location: "Eastern Province",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Arugam_Bay.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A globally renowned surf capital celebrated for legendary right-hand point breaks, laidback boho vibes, and proximity to wild elephant lagoons.",
+        highlights: ["Main Point, Whiskey Point & Peanut Farm surf breaks", "Elephant rock sunset view and lagoon", "Kumana National Park safari nearby", "Eclectic beachfront vegan cafes & music"],
+        travelTips: "Prime season is May through October when the southwest coast experiences rain, making Arugam Bay dry, sunny, and pumping with waves."
+      },
+      {
+        id: "att-hiriketiya",
+        name: "Hiriketiya",
+        category: "Beach Destinations",
+        location: "Dikwella, Southern Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Dickwella_beach.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A picturesque horseshoe-shaped jungle bay where palm trees lean into calm emerald waves, beloved by surfers, yogis, and digital nomads.",
+        highlights: ["Horseshoe cove sheltered from heavy swells", "Left-hand point break for intermediates & beach break for learners", "Artisanal coffee shops & wood-fired pizza spots", "Sea turtles swimming along the shore"],
+        travelTips: "You can rent surfboards right on the sand and take private surf lessons with local instructors."
+      },
+      {
+        id: "att-hikkaduwa",
+        name: "Hikkaduwa",
+        category: "Beach Destinations",
+        location: "Southwest Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hikkaduwa_Beach.JPG?width=1000",
+        fallback: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Sri Lanka's original bohemian beach destination, famous for offshore coral reefs, giant wild sea turtles swimming in the shallows, and beachfront nightlife.",
+        highlights: ["Hikkaduwa National Coral Sanctuary", "Feeding giant green sea turtles right off the beach", "Scuba diving historic shipwrecks", "Vibrant sunset beach bars"],
+        travelTips: "Visit the beach by the main reef around 9:00 AM to meet the friendly resident green sea turtles."
+      },
+
+      // WILDLIFE DESTINATIONS (4)
+      {
+        id: "att-yala",
+        name: "Yala National Park",
+        category: "Wildlife Destinations",
+        location: "Southern & Uva Provinces",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_at_Yala_National_Park.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Sri Lanka's flagship wildlife sanctuary boasting the highest recorded density of leopards on earth, set against dramatic coastal and scrub jungle landscapes.",
+        highlights: ["Sri Lankan Leopard (Panthera pardus kotiya)", "Sloth bears feeding on palu berries", "Wild elephant herds and spotted deer", "Over 215 bird species including crested serpent eagles"],
+        travelTips: "Book full-day or double safari drives (morning & afternoon) to substantially maximize your chances of spotting a leopard."
+      },
+      {
+        id: "att-udawalawe",
+        name: "Udawalawe National Park",
+        category: "Wildlife Destinations",
+        location: "Sabaragamuwa & Uva Provinces",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Udawalawe_national_park.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "A stunning savannah-like park surrounding a giant reservoir, famous for guaranteed wild Asian elephant sightings in their natural grassland habitat.",
+        highlights: ["Guaranteed wild elephant sightings on every safari", "Udawalawe Elephant Transit Home (ETH)", "Water buffalo herds, jackals, and mugger crocodiles", "Majestic backdrop of the Haputale mountain escarpment"],
+        travelTips: "Combine your morning park safari with the 12:00 PM feeding time at the nearby Elephant Transit Home to see rescued baby elephants."
+      },
+      {
+        id: "att-minneriya",
+        name: "Minneriya National Park",
+        category: "Wildlife Destinations",
+        location: "North Central Province",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants_of_Minneriya_National_Park,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Home to 'The Gathering' — widely recognized by National Geographic as one of the world's greatest natural wildlife spectacles, with over 300 elephants.",
+        highlights: ["The Elephant Gathering (July to October)", "3rd-century Minneriya ancient reservoir lake", "Painted storks, pelicans, and cormorants", "Open grass plains providing unobstructed photography"],
+        travelTips: "Afternoon safaris (3:00 PM - 6:00 PM) are best as elephants emerge from the jungle to drink and socialize along the water's edge."
+      },
+      {
+        id: "att-wilpattu",
+        name: "Wilpattu National Park",
+        category: "Wildlife Destinations",
+        location: "Northwest Coast",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Wilpattu_National_Park,_Sri_Lanka.jpg?width=1000",
+        fallback: "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80",
+        shortDesc: "Sri Lanka's largest and oldest national park, famous for tranquil natural sand-rimmed water basins (villus), dense dry forest, and elusive leopards.",
+        highlights: ["Over 106 natural rainwater villu lakes", "High probability of sloth bear encounters", "Uncrowded, serene safari experience far from crowds", "Coastal wilderness adjoining Kudiramalai Point"],
+        travelTips: "Wilpattu is ideal for nature photographers and wildlife enthusiasts who prefer raw, quiet wilderness without safari jeep traffic."
+      }
+    ];
+// --- 3. PAGE NAVIGATION ROUTER ---
+    function navigateTo(pageId) {
+      // Hide all pages
+      document.querySelectorAll('.page-section').forEach(section => {
+        section.classList.remove('active-page');
+      });
+
+      // Show selected page
+      const target = document.getElementById(pageId + '-page');
+      if (target) {
+        target.classList.add('active-page');
+      }
+
+      // Update navbar links
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('data-nav') === pageId) {
+          link.classList.add('active');
+        }
+      });
+
+      // Close mobile drawer if open
+      const nav = document.getElementById('mainNav');
+      if (nav && nav.classList.contains('open')) {
+        nav.classList.remove('open');
+      }
+
+      // Scroll smoothly to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Update URL Hash without reload
+      if (history.pushState) {
+        history.pushState(null, null, '#' + pageId);
+      } else {
+        location.hash = '#' + pageId;
+      }
+    }
+
+    // --- 4. RENDERERS ---
+    function renderFeaturedTours() {
+      const container = document.getElementById('featuredToursContainer');
+      if (!container) return;
+
+      // Select first 6 signature packages
+      const featured = toursData.slice(0, 6);
+      container.innerHTML = featured.map(tour => createTourCardHtml(tour)).join('');
+    }
+
+    function renderAllTours(list) {
+      const container = document.getElementById('allToursContainer');
+      const noFound = document.getElementById('noToursFound');
+      if (!container) return;
+
+      if (!list || list.length === 0) {
+        container.innerHTML = '';
+        if (noFound) noFound.style.display = 'block';
+        return;
+      }
+
+      if (noFound) noFound.style.display = 'none';
+      container.innerHTML = list.map(tour => createTourCardHtml(tour)).join('');
+    }
+
+    function createTourCardHtml(tour) {
+      const highlightsHtml = tour.highlights.map(h => `
+        <li class="tour-card-highlight-item">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>${h}</span>
+        </li>
+      `).join('');
+
+      return `
+        <article class="tour-card" data-category="${tour.category}">
+          <div class="tour-card-img-wrap">
+            <img src="${tour.image}" alt="${tour.title}" class="tour-card-img" onerror="this.src='${tour.fallback}'" loading="lazy">
+            <span class="tour-card-badge">${tour.category}</span>
+            <span class="tour-card-duration">
+              <i class="fa-regular fa-clock"></i> ${tour.duration}
+            </span>
+          </div>
+
+          <div class="tour-card-body">
+            <div class="tour-card-meta">
+              <span class="tour-type-tag"><i class="fa-solid fa-compass"></i> Bespoke Private</span>
+              <span class="tour-rating">
+                <i class="fa-solid fa-star"></i> ${tour.rating} <span style="color: #94a3b8; font-weight: normal;">(${tour.reviewsCount})</span>
+              </span>
+            </div>
+
+            <h3 class="tour-card-title">${tour.title}</h3>
+            <p class="tour-card-desc">${tour.shortDesc}</p>
+
+            <ul class="tour-card-highlights">
+              ${highlightsHtml}
+            </ul>
+
+            <div class="tour-card-footer">
+              <button type="button" class="btn btn-outline-white btn-sm" style="color: var(--primary-navy); border-color: #cbd5e1;" onclick="openTourDetailModal('${tour.id}')">
+                <i class="fa-solid fa-eye"></i> View Details
+              </button>
+              <button type="button" class="btn btn-gold btn-sm" onclick="openBookingModal('${tour.title} (${tour.duration})')">
+                <i class="fa-solid fa-paper-plane"></i> Book This Tour
+              </button>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderAttractions(list) {
+      const container = document.getElementById('attractionsGrid');
+      if (!container) return;
+
+      container.innerHTML = list.map(att => `
+        <article class="attraction-card">
+          <div class="attraction-img-wrap">
+            <img src="${att.image}" alt="${att.name}" class="attraction-img" onerror="this.src='${att.fallback}'" loading="lazy">
+            <span class="attraction-cat-badge">${att.category}</span>
+            <span class="attraction-loc-badge">
+              <i class="fa-solid fa-location-dot"></i> ${att.location}
+            </span>
+          </div>
+
+          <div class="attraction-body">
+            <h3 class="attraction-title">${att.name}</h3>
+            <p class="attraction-desc">${att.shortDesc}</p>
+
+            <div class="attraction-tags">
+              ${att.highlights.slice(0, 3).map(h => `<span class="attraction-tag">${h}</span>`).join('')}
+            </div>
+
+            <div class="attraction-footer">
+              <span style="font-size: 0.82rem; font-weight: 700; color: var(--tropical-green);">
+                <i class="fa-solid fa-check"></i> Private Tour Stop
+              </span>
+              <button type="button" class="btn btn-outline-white btn-sm" style="color: var(--primary-navy); border-color: #cbd5e1;" onclick="openAttractionDetail('${att.name}')">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Explore More
+              </button>
+            </div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    // --- 5. FILTER & SEARCH LOGIC ---
+    let currentTourCategory = 'all';
+
+    function filterTours(category, btnElement) {
+      currentTourCategory = category;
+
+      // Update active pill button
+      if (btnElement) {
+        document.querySelectorAll('#tourCategoryPills .category-pill').forEach(btn => btn.classList.remove('active'));
+        btnElement.classList.add('active');
+      }
+
+      applyToursFilterAndSearch();
+    }
+
+    function handleToursSearch() {
+      applyToursFilterAndSearch();
+    }
+
+    function applyToursFilterAndSearch() {
+      const query = (document.getElementById('toursSearchInput')?.value || '').toLowerCase().trim();
+
+      const filtered = toursData.filter(tour => {
+        const matchesCategory = (currentTourCategory === 'all' || tour.category.toLowerCase().includes(currentTourCategory.toLowerCase()));
+        const matchesQuery = !query || 
+          tour.title.toLowerCase().includes(query) || 
+          tour.shortDesc.toLowerCase().includes(query) ||
+          tour.highlights.some(h => h.toLowerCase().includes(query));
+
+        return matchesCategory && matchesQuery;
+      });
+
+      renderAllTours(filtered);
+    }
+
+    function resetTourFilters() {
+      currentTourCategory = 'all';
+      const searchInput = document.getElementById('toursSearchInput');
+      if (searchInput) searchInput.value = '';
+
+      const pills = document.querySelectorAll('#tourCategoryPills .category-pill');
+      pills.forEach((p, idx) => {
+        if (idx === 0) p.classList.add('active');
+        else p.classList.remove('active');
+      });
+
+      renderAllTours(toursData);
+    }
+
+    function filterAttractions(category, btnElement) {
+      if (btnElement) {
+        document.querySelectorAll('#attractionCategoryPills .category-pill').forEach(btn => btn.classList.remove('active'));
+        btnElement.classList.add('active');
+      }
+
+      if (category === 'all') {
+        renderAttractions(attractionsData);
+      } else {
+        const filtered = attractionsData.filter(att => att.category === category);
+        renderAttractions(filtered);
+      }
+    }
+
+    // Quick Search Form Handler on Home Page
+    function handleQuickSearch(e) {
+      e.preventDefault();
+      const tourType = document.getElementById('searchTourType').value;
+      const destination = document.getElementById('searchDestination').value;
+
+      navigateTo('tours');
+
+      if (tourType !== 'all') {
+        // Find matching pill
+        const pills = document.querySelectorAll('#tourCategoryPills .category-pill');
+        pills.forEach(pill => {
+          if (pill.textContent.toLowerCase().includes(tourType.toLowerCase())) {
+            filterTours(tourType, pill);
+          }
+        });
+      } else {
+        resetTourFilters();
+      }
+
+      showToast(`Showing customized tours for your search!`, "success");
+    }
+
+    // --- 6. MODALS LOGIC ---
+    function openBookingModal(preselectedTourName) {
+      const modal = document.getElementById('bookingModal');
+      if (!modal) return;
+
+      if (preselectedTourName) {
+        const select = document.getElementById('bookTourPackage');
+        if (select) {
+          let found = false;
+          for (let option of select.options) {
+            if (option.value.toLowerCase().includes(preselectedTourName.toLowerCase()) || preselectedTourName.toLowerCase().includes(option.value.toLowerCase())) {
+              option.selected = true;
+              found = true;
+              break;
+            }
+          }
+          if (!found) {
+            // Select custom
+            select.value = "Custom / Tailor-Made Itinerary";
+          }
+        }
+      }
+
+      // Default date to tomorrow
+      const dateInput = document.getElementById('bookDate');
+      if (dateInput && !dateInput.value) {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        dateInput.value = tomorrow.toISOString().split('T')[0];
+        dateInput.min = new Date().toISOString().split('T')[0];
+      }
+
+      modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeBookingModal() {
+      const modal = document.getElementById('bookingModal');
+      if (modal) modal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    function openConfirmationModal(bookingData) {
+      const modal = document.getElementById('confirmationModal');
+      const detailsContainer = document.getElementById('receiptDetails');
+      const btnWhatsApp = document.getElementById('btnWhatsAppConfirm');
+      if (!modal || !detailsContainer) return;
+
+      detailsContainer.innerHTML = `
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
+          <span style="font-weight: 700; color: var(--primary-navy); font-size: 0.95rem;">BOOKING REFERENCE</span>
+          <span style="background: var(--accent-gold-light); color: #92400e; font-weight: 800; font-family: monospace; font-size: 1.05rem; padding: 4px 10px; border-radius: 4px;">${bookingData.reference}</span>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.88rem; color: var(--text-main);">
+          <div><strong>Guest:</strong> ${bookingData.fullName}</div>
+          <div><strong>Nationality:</strong> ${bookingData.country}</div>
+          <div><strong>Tour:</strong> ${bookingData.tourPackage}</div>
+          <div><strong>Start Date:</strong> ${bookingData.preferredDate}</div>
+          <div><strong>Travelers:</strong> ${bookingData.adults} Adults, ${bookingData.children} Children</div>
+          <div><strong>Duration:</strong> ${bookingData.days} Days</div>
+          <div style="grid-column: span 2;"><strong>Pickup:</strong> ${bookingData.pickup}</div>
+        </div>
+      `;
+
+      // Construct direct WhatsApp URL prefilled
+      const waText = encodeURIComponent(
+        `Hello Go Ceylon Travels! 🌴\n\nI have submitted a Tour Booking Request on your website.\n\n` +
+        `*Reference:* ${bookingData.reference}\n` +
+        `*Guest Name:* ${bookingData.fullName}\n` +
+        `*Country:* ${bookingData.country}\n` +
+        `*Tour:* ${bookingData.tourPackage}\n` +
+        `*Preferred Date:* ${bookingData.preferredDate}\n` +
+        `*Party:* ${bookingData.adults} Adults, ${bookingData.children} Children (${bookingData.days} Days)\n` +
+        `*Pickup:* ${bookingData.pickup}\n` +
+        (bookingData.requirements ? `*Notes:* ${bookingData.requirements}\n\n` : `\n`) +
+        `Please provide the customized itinerary and quote!`
+      );
+      if (btnWhatsApp) {
+        btnWhatsApp.href = `https://wa.me/94777613691?text=${waText}`;
+      }
+
+      modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeConfirmationModal() {
+      const modal = document.getElementById('confirmationModal');
+      if (modal) modal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    function openTourDetailModal(tourId) {
+      const tour = toursData.find(t => t.id === tourId);
+      if (!tour) return;
+
+      const titleEl = document.getElementById('tourModalTitle');
+      const bodyEl = document.getElementById('tourModalBody');
+      if (titleEl) titleEl.textContent = tour.title;
+
+      const itineraryHtml = tour.itinerary.map(item => `
+        <div class="itinerary-day">
+          <div class="itinerary-day-title">${item.day}: ${item.title}</div>
+          <div class="itinerary-day-desc">${item.desc}</div>
+        </div>
+      `).join('');
+
+      const inclusionsHtml = tour.inclusions.map(inc => `<li style="margin-bottom: 6px;"><i class="fa-solid fa-check" style="color: var(--tropical-green); margin-right: 8px;"></i>${inc}</li>`).join('');
+      const exclusionsHtml = tour.exclusions.map(exc => `<li style="margin-bottom: 6px;"><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px;"></i>${exc}</li>`).join('');
+
+      bodyEl.innerHTML = `
+        <div style="border-radius: var(--radius-md); overflow: hidden; height: 280px; margin-bottom: 24px;">
+          <img src="${tour.image}" alt="${tour.title}" onerror="this.src='${tour.fallback}'" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; flex-wrap: wrap; gap: 10px;">
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span class="category-pill active" style="font-size: 0.8rem; padding: 4px 12px;">${tour.category}</span>
+            <span style="font-weight: 700; color: var(--primary-navy); font-size: 0.95rem;"><i class="fa-regular fa-clock" style="color: var(--tropical-green);"></i> ${tour.duration}</span>
+          </div>
+          <div style="font-size: 1.15rem; font-weight: 800; color: var(--primary-navy);">
+            From <span style="color: var(--tropical-green); font-size: 1.45rem;">${tour.priceFrom}</span> <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);">/ person</span>
+          </div>
+        </div>
+
+        <p style="color: var(--text-muted); font-size: 1.02rem; line-height: 1.65; margin-bottom: 24px;">
+          ${tour.shortDesc} This package is fully customizable according to your exact flights, preferred accommodations, and travel pace.
+        </p>
+
+        <h4 style="font-size: 1.15rem; margin-bottom: 14px; color: var(--primary-navy); border-bottom: 1.5px solid #e2e8f0; padding-bottom: 6px;">
+          <i class="fa-solid fa-route" style="color: var(--accent-gold); margin-right: 8px;"></i> Day-by-Day Itinerary
+        </h4>
+        <div class="itinerary-timeline">
+          ${itineraryHtml}
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 30px 0; background: #f8fafc; padding: 20px; border-radius: var(--radius-md);">
+          <div>
+            <h5 style="font-size: 0.95rem; font-weight: 700; color: var(--tropical-green); margin-bottom: 12px;">
+              <i class="fa-solid fa-circle-check"></i> What's Included
+            </h5>
+            <ul style="list-style: none; font-size: 0.88rem; color: var(--text-main);">
+              ${inclusionsHtml}
+            </ul>
+          </div>
+          <div>
+            <h5 style="font-size: 0.95rem; font-weight: 700; color: #ef4444; margin-bottom: 12px;">
+              <i class="fa-solid fa-circle-xmark"></i> What's Excluded
+            </h5>
+            <ul style="list-style: none; font-size: 0.88rem; color: var(--text-main);">
+              ${exclusionsHtml}
+            </ul>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px;">
+          <button type="button" class="btn btn-outline-white" style="color: var(--primary-navy); border-color: #cbd5e1;" onclick="closeTourDetailModal()">Close</button>
+          <button type="button" class="btn btn-gold" onclick="closeTourDetailModal(); openBookingModal('${tour.title} (${tour.duration})')">
+            <i class="fa-solid fa-paper-plane"></i> Book This Tour Package
+          </button>
+        </div>
+      `;
+
+      const modal = document.getElementById('tourDetailModal');
+      if (modal) modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeTourDetailModal() {
+      const modal = document.getElementById('tourDetailModal');
+      if (modal) modal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    function openAttractionDetail(attractionName) {
+      const att = attractionsData.find(a => a.name.toLowerCase().includes(attractionName.toLowerCase()) || attractionName.toLowerCase().includes(a.name.toLowerCase()));
+      if (!att) return;
+
+      const titleEl = document.getElementById('attractionModalTitle');
+      const bodyEl = document.getElementById('attractionModalBody');
+      if (titleEl) titleEl.textContent = att.name;
+
+      bodyEl.innerHTML = `
+        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px; margin-bottom: 20px;">
+          <img src="${att.image}" alt="${att.name}" onerror="this.src='${att.fallback}'" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+          <span class="category-pill active" style="font-size: 0.78rem; padding: 4px 12px;">${att.category}</span>
+          <span style="font-size: 0.88rem; font-weight: 700; color: var(--tropical-green); display: flex; align-items: center; gap: 6px;">
+            <i class="fa-solid fa-location-dot"></i> ${att.location}
+          </span>
+        </div>
+
+        <p style="color: var(--text-main); font-size: 1.05rem; line-height: 1.65; margin-bottom: 20px;">
+          ${att.shortDesc}
+        </p>
+
+        <h4 style="font-size: 1.05rem; margin-bottom: 12px; color: var(--primary-navy);">
+          <i class="fa-solid fa-star" style="color: var(--accent-gold); margin-right: 6px;"></i> Key Highlights
+        </h4>
+        <ul style="list-style: none; margin-bottom: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+          ${att.highlights.map(h => `<li style="font-size: 0.9rem; color: var(--text-muted);"><i class="fa-solid fa-check" style="color: var(--tropical-green); margin-right: 8px;"></i>${h}</li>`).join('')}
+        </ul>
+
+        <div style="background: #fdf6ec; border-left: 4px solid var(--accent-gold); padding: 16px; border-radius: 4px; margin-bottom: 24px;">
+          <strong style="color: #92400e; font-size: 0.92rem;"><i class="fa-solid fa-lightbulb"></i> Local Chauffeur Tip:</strong>
+          <p style="color: #78350f; font-size: 0.88rem; margin-top: 4px; line-height: 1.5;">${att.travelTips}</p>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 12px;">
+          <button type="button" class="btn btn-outline-white" style="color: var(--primary-navy); border-color: #cbd5e1;" onclick="closeAttractionDetailModal()">Close</button>
+          <button type="button" class="btn btn-primary" onclick="closeAttractionDetailModal(); openBookingModal('Custom Visit to ' + att.name)">
+            <i class="fa-solid fa-calendar-plus"></i> Include ${att.name} in My Tour
+          </button>
+        </div>
+      `;
+
+      const modal = document.getElementById('attractionDetailModal');
+      if (modal) modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeAttractionDetailModal() {
+      const modal = document.getElementById('attractionDetailModal');
+      if (modal) modal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    // --- 7. BOOKING & CONTACT SUBMISSION CONTROLLER ---
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+
+      const fullName = document.getElementById('bookFullName').value.trim();
+      const email = document.getElementById('bookEmail').value.trim();
+      const phone = document.getElementById('bookPhone').value.trim();
+      const country = document.getElementById('bookCountry').value;
+      const tourPackage = document.getElementById('bookTourPackage').value;
+      const preferredDate = document.getElementById('bookDate').value;
+      const adults = document.getElementById('bookAdults').value;
+      const children = document.getElementById('bookChildren').value || '0';
+      const days = document.getElementById('bookDays').value;
+      const pickup = document.getElementById('bookPickup').value;
+      const requirements = document.getElementById('bookRequirements').value.trim();
+
+      // Form validation
+      if (!fullName || !email || !phone || !country || !preferredDate) {
+        showToast("Please complete all required fields.", "error");
+        return;
+      }
+
+      // Generate unique reference number (e.g. GCT-2026-8492)
+      const randomSuffix = Math.floor(1000 + Math.random() * 9000);
+      const reference = `GCT-2026-${randomSuffix}`;
+
+      const bookingRecord = {
+        reference,
+        fullName,
+        email,
+        phone,
+        country,
+        tourPackage,
+        preferredDate,
+        adults,
+        children,
+        days,
+        pickup,
+        requirements,
+        status: "New Inquiry",
+        timestamp: new Date().toISOString()
+      };
+
+      // Save to Client LocalStorage Database
+      try {
+        const existing = JSON.parse(localStorage.getItem('gct_bookings') || '[]');
+        existing.unshift(bookingRecord);
+        localStorage.setItem('gct_bookings', JSON.stringify(existing));
+      } catch (err) {
+        console.warn("Could not save to localStorage:", err);
+      }
+
+      // Close input modal and show confirmation receipt
+      closeBookingModal();
+      document.getElementById('bookingForm').reset();
+      openConfirmationModal(bookingRecord);
+      showToast(`Booking request ${reference} created successfully!`, "success");
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('contactName').value.trim();
+      const email = document.getElementById('contactEmail').value.trim();
+      const phone = document.getElementById('contactPhone').value.trim();
+      const subject = document.getElementById('contactSubject').value.trim();
+      const message = document.getElementById('contactMessage').value.trim();
+
+      if (!name || !email || !phone || !message) {
+        showToast("Please fill out all required fields.", "error");
+        return;
+      }
+
+      const msgId = `MSG-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+      const messageRecord = {
+        reference: msgId,
+        fullName: name,
+        email,
+        phone,
+        tourPackage: subject,
+        country: "Inquiry Message",
+        preferredDate: new Date().toLocaleDateString(),
+        adults: "-",
+        children: "-",
+        days: "-",
+        pickup: "-",
+        requirements: message,
+        status: "Contact Message",
+        timestamp: new Date().toISOString()
+      };
+
+      // Save to Database
+      try {
+        const existing = JSON.parse(localStorage.getItem('gct_bookings') || '[]');
+        existing.unshift(messageRecord);
+        localStorage.setItem('gct_bookings', JSON.stringify(existing));
+      } catch (err) {
+        console.warn("Could not save message:", err);
+      }
+
+      document.getElementById('contactForm').reset();
+      showToast(`Thank you, ${name}! Your message has been sent. We will respond shortly.`, "success");
+    }
+
+    // --- 8. ADMIN INQUIRIES PORTAL ---
+    function openAdminModal() {
+      renderAdminTable();
+      const modal = document.getElementById('adminModal');
+      if (modal) modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeAdminModal() {
+      const modal = document.getElementById('adminModal');
+      if (modal) modal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    function renderAdminTable() {
+      const wrapper = document.getElementById('adminTableWrapper');
+      const countEl = document.getElementById('adminCount');
+      if (!wrapper) return;
+
+      const records = JSON.parse(localStorage.getItem('gct_bookings') || '[]');
+      if (countEl) countEl.textContent = `${records.length} records`;
+
+      if (records.length === 0) {
+        wrapper.innerHTML = `
+          <div style="padding: 40px; text-align: center; color: var(--text-muted);">
+            <i class="fa-solid fa-inbox" style="font-size: 2.5rem; margin-bottom: 12px; color: #cbd5e1;"></i>
+            <p>No booking inquiries stored yet. Submit a test booking inquiry to see it recorded here!</p>
+          </div>
+        `;
+        return;
+      }
+
+      const rows = records.map((r, i) => `
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 0.88rem;">
+          <td style="padding: 12px 14px; font-family: monospace; font-weight: 700; color: var(--primary-navy);">${r.reference}</td>
+          <td style="padding: 12px 14px;"><strong>${r.fullName}</strong><br><small style="color: var(--text-muted);">${r.email}</small></td>
+          <td style="padding: 12px 14px;">${r.phone}</td>
+          <td style="padding: 12px 14px;">${r.country}</td>
+          <td style="padding: 12px 14px; max-width: 200px;">${r.tourPackage}</td>
+          <td style="padding: 12px 14px;">${r.preferredDate}</td>
+          <td style="padding: 12px 14px;"><span style="background: rgba(16, 185, 129, 0.15); color: var(--tropical-green); padding: 3px 8px; border-radius: 4px; font-weight: 600; font-size: 0.75rem;">${r.status}</span></td>
+        </tr>
+      `).join('');
+
+      wrapper.innerHTML = `
+        <table style="width: 100%; border-collapse: collapse; text-align: left; background: #ffffff;">
+          <thead>
+            <tr style="background: #f8fafc; border-bottom: 2px solid #e2e8f0; font-size: 0.82rem; text-transform: uppercase; color: var(--text-muted);">
+              <th style="padding: 12px 14px;">Ref ID</th>
+              <th style="padding: 12px 14px;">Guest Name</th>
+              <th style="padding: 12px 14px;">WhatsApp/Phone</th>
+              <th style="padding: 12px 14px;">Country</th>
+              <th style="padding: 12px 14px;">Tour Package</th>
+              <th style="padding: 12px 14px;">Date</th>
+              <th style="padding: 12px 14px;">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function exportInquiriesCSV() {
+      const records = JSON.parse(localStorage.getItem('gct_bookings') || '[]');
+      if (records.length === 0) {
+        showToast("No records to export.", "error");
+        return;
+      }
+
+      const headers = ["Reference", "FullName", "Email", "Phone", "Country", "TourPackage", "PreferredDate", "Adults", "Children", "Days", "Pickup", "Requirements", "Status", "Timestamp"];
+      const csvRows = [headers.join(",")];
+
+      records.forEach(r => {
+        const row = [
+          `"${r.reference}"`,
+          `"${(r.fullName || '').replace(/"/g, '""')}"`,
+          `"${(r.email || '').replace(/"/g, '""')}"`,
+          `"${(r.phone || '').replace(/"/g, '""')}"`,
+          `"${(r.country || '').replace(/"/g, '""')}"`,
+          `"${(r.tourPackage || '').replace(/"/g, '""')}"`,
+          `"${r.preferredDate || ''}"`,
+          `"${r.adults || ''}"`,
+          `"${r.children || ''}"`,
+          `"${r.days || ''}"`,
+          `"${(r.pickup || '').replace(/"/g, '""')}"`,
+          `"${(r.requirements || '').replace(/"/g, '""')}"`,
+          `"${r.status || ''}"`,
+          `"${r.timestamp || ''}"`
+        ];
+        csvRows.push(row.join(","));
+      });
+
+      const blob = new Blob([csvRows.join("\n")], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", `GoCeylonTravels_Inquiries_${new Date().toISOString().split('T')[0]}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      showToast("Inquiries CSV exported successfully!", "success");
+    }
+
+    function clearAdminRecords() {
+      if (confirm("Are you sure you want to clear all inquiries? This action cannot be undone.")) {
+        localStorage.removeItem('gct_bookings');
+        renderAdminTable();
+        showToast("All inquiries cleared.", "success");
+      }
+    }
+
+    // --- 9. TOAST NOTIFICATIONS ---
+    function showToast(message, type = "info") {
+      const container = document.getElementById('toastContainer');
+      if (!container) return;
+
+      const toast = document.createElement('div');
+      toast.className = `toast ${type === 'success' ? 'toast-success' : type === 'error' ? 'toast-error' : ''}`;
+
+      let icon = "fa-circle-info";
+      if (type === 'success') icon = "fa-circle-check";
+      if (type === 'error') icon = "fa-triangle-exclamation";
+
+      toast.innerHTML = `
+        <i class="fa-solid ${icon}" style="font-size: 1.25rem;"></i>
+        <div style="font-size: 0.92rem; font-weight: 500;">${message}</div>
+      `;
+
+      container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateX(100%)';
+        toast.style.transition = 'all 0.35s ease';
+        setTimeout(() => toast.remove(), 350);
+      }, 4000);
+    }
+
+    // --- 10. FAQ ACCORDION ---
+    function toggleFaq(headerEl) {
+      const item = headerEl.parentElement;
+      const isActive = item.classList.contains('active');
+
+      document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+
+      if (!isActive) {
+        item.classList.add('active');
+      }
+    }
+
+    // --- 11. SCROLL & UI BEHAVIORS ---
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.addEventListener('scroll', () => {
+      // Header shadow on scroll
+      const header = document.getElementById('siteHeader');
+      if (header) {
+        if (window.scrollY > 50) header.classList.add('scrolled');
+        else header.classList.remove('scrolled');
+      }
+
+      // Back to top button visibility
+      const btt = document.getElementById('backToTopBtn');
+      if (btt) {
+        if (window.scrollY > 400) btt.classList.add('show');
+        else btt.classList.remove('show');
+      }
+    });
+
+    // Close modals on clicking backdrop
+    window.addEventListener('click', (e) => {
+      if (e.target.classList.contains('modal-backdrop')) {
+        e.target.classList.remove('show');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Mobile Menu Toggle
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggleBtn = document.getElementById('mobileMenuToggle');
+      const nav = document.getElementById('mainNav');
+      if (toggleBtn && nav) {
+        toggleBtn.addEventListener('click', () => {
+          nav.classList.toggle('open');
+        });
+      }
+
+      // Initial Renders
+      renderFeaturedTours();
+      renderAllTours(toursData);
+      renderAttractions(attractionsData);
+
+      // Check URL Hash for direct page navigation
+      const currentHash = (window.location.hash || '').replace('#', '').trim();
+      if (currentHash && ['home', 'tours', 'attractions', 'about', 'contact'].includes(currentHash)) {
+        navigateTo(currentHash);
+      } else if (currentHash === 'book') {
+        navigateTo('home');
+        openBookingModal();
+      }
+
+      // Seed initial sample inquiries if empty for demonstration
+      if (!localStorage.getItem('gct_bookings')) {
+        const sampleRecords = [
+          {
+            reference: "GCT-2026-1042",
+            fullName: "Emily Watson",
+            email: "emily.watson@travelers.co.uk",
+            phone: "+44 7700 900123",
+            country: "United Kingdom",
+            tourPackage: "Sri Lanka Cultural Tour (7 Days / 6 Nights)",
+            preferredDate: "2026-12-14",
+            adults: "2",
+            children: "0",
+            days: "7",
+            pickup: "Bandaranaike International Airport (CMB / BIA)",
+            requirements: "Interested in visiting a local tea plucking estate and photography.",
+            status: "New Inquiry",
+            timestamp: new Date().toISOString()
+          },
+          {
+            reference: "GCT-2026-2187",
+            fullName: "Markus Schneider",
+            email: "m.schneider@deutschland.de",
+            phone: "+49 170 1234567",
+            country: "Germany",
+            tourPackage: "Wildlife Safari Experience (6 Days / 5 Nights)",
+            preferredDate: "2027-01-20",
+            adults: "2",
+            children: "1",
+            days: "6",
+            pickup: "Bandaranaike International Airport (CMB / BIA)",
+            requirements: "Leopard photography specialist jeep requested in Yala.",
+            status: "New Inquiry",
+            timestamp: new Date().toISOString()
+          }
+        ];
+        localStorage.setItem('gct_bookings', JSON.stringify(sampleRecords));
+      }
+
+      // Set current year in footer
+      const yearEl = document.getElementById('currentYear');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
